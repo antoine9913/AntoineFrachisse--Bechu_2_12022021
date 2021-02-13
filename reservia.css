@@ -11,3 +11,11 @@
     font-style: normal;
     font-display: swap;
 }
+
+body
+{
+    background-color: white;
+    width: 100%;
+    font-family: 'Raleway', serif;
+    margin: auto;
+}
