@@ -1,0 +1,13 @@
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('font/Raleway-Regular.eot');
+    src: url('font/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Raleway-Regular.woff2') format('woff2'),
+        url('font/Raleway-Regular.woff') format('woff'),
+        url('font/Raleway-Regular.ttf') format('truetype'),
+        url('font/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
