@@ -13,6 +13,19 @@
 
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Bold.eot');
+    src: url('Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff'),
+        url('Raleway-Bold.ttf') format('truetype'),
+        url('Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body
 {
     background-color: white;
@@ -63,4 +76,21 @@ a:hover
 #inscription
 {
     color: #0065FC;
+}
+
+
+
+#P1 p
+{
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#P2 p
+{
+    margin-top: 10px;
+    margin-left: 50px;
 }
