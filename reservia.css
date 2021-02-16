@@ -10,6 +10,20 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Bold.eot');
+    src: url('Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Bold.woff2') format('woff2'),
+        url('Raleway-Bold.woff') format('woff'),
+        url('Raleway-Bold.ttf') format('truetype'),
+        url('Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -32,6 +46,8 @@ body
     font-family: 'Raleway', serif;
     margin: auto;
 }
+
+    /*header*/
 
 header
 {
@@ -78,6 +94,9 @@ a:hover
 }
 
 
+/*paragraphes*/
+
+
 
 #P1 p
 {
@@ -92,4 +111,61 @@ a:hover
 {
     margin-top: 10px;
     margin-left: 50px;
+
 }
+
+/*recherche localisation*/
+
+#localisation
+{
+    display: flex;
+}
+
+#logo_loc
+{
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    margin-left: 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+#nom_de_ville
+{
+    border: 1px solid #F2F2F2;
+}
+
+input
+{
+    width: 200px;
+    border: #F2F2F2;
+    font-size: 1.2em;
+    text-align: start;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+input[type="text"]:focus 
+{
+    outline:none;
+}
+
+#bouton_rechercher
+{
+    width: 140px;
+    border:1px solid #0065FC;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    padding-top: 15px;
+}
+
+#button
+{
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    padding-left: 20px;
+    outline: none;
+}
+
