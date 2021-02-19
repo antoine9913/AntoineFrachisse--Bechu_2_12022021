@@ -168,6 +168,7 @@ input[type="text"]:focus
     font-size: 1.2em;
     padding-left: 20px;
     outline: none;
+    cursor: pointer;
 }
 
 
@@ -183,85 +184,124 @@ input[type="text"]:focus
     font-weight: bold;
     font-size: 1.3em;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+}
+
+.btn
+{
+    border: 1px solid #F2F2F2;
+    background: none;
+    cursor: pointer;
+    padding: 22px 22px;
+    transition: 0.8s;
 }
 
 #economique
 {
-    height: 30px;
     display: flex;
-    border:2px solid #F2F2F2;
-    padding: 10px 20px 10px 0;
-    border-radius: 40px;
     align-items: center;
 }
 
 #logo_billet
 {
-    border:1px solid #DEEBFF;
-    background-color: #DEEBFF;
-    border-radius: 40px;
-    padding: 15px;
+    position: absolute;
     color: #0065FC;
-    margin-right: 13px;
+    border: 1px solid #DEEBFF;
+    border-radius:40px ;
+    padding: 15px;
+    background: #DEEBFF;
+}
+
+.economique
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    padding-left: 75px;
+    padding-top: 17px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 #familial
 {
-    height: 30px;
     display: flex;
-    border:2px solid #F2F2F2;
-    padding: 10px 20px 10px 0;
-    border-radius: 40px;
     align-items: center;
 }
 
 #logo_child
 {
-    border:1px solid #DEEBFF;
-    background-color: #DEEBFF;
-    border-radius: 40px;
-    padding: 15px 20px 15px 20px;
+    position: absolute;
     color: #0065FC;
-    margin-right: 13px;
+    border: 1px solid #DEEBFF;
+    border-radius:40px ;
+    padding: 15px 20px;
+    background: #DEEBFF;
+}
+.familial
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    padding-left: 75px;
+    padding-top: 17px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 #romantique
 {
-    height: 30px;
     display: flex;
-    border:2px solid #F2F2F2;
-    padding: 10px 20px 10px 0;
-    border-radius: 40px;
     align-items: center;
 }
 
 #logo_coeur
 {
-    border:1px solid #DEEBFF;
-    background-color: #DEEBFF;
-    border-radius: 40px;
-    padding: 15px 17px 15px 17px;
+    position: absolute;
     color: #0065FC;
-    margin-right: 13px;
+    border: 1px solid #DEEBFF;
+    border-radius:40px ;
+    padding: 15px 17px;
+    background: #DEEBFF;
+}
+.romantique
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    padding-left: 75px;
+    padding-top: 17px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 0.8em;
 }
 
 #animaux_autorisé
 {
-    height: 30px;
     display: flex;
-    border:2px solid #F2F2F2;
-    padding: 10px 20px 10px 0;
-    border-radius: 40px;
     align-items: center;
 }
 
 #logo_chien
 {
-    border:1px solid #DEEBFF;
-    background-color: #DEEBFF;
-    border-radius: 40px;
-    padding: 15px;
+    position: absolute;
     color: #0065FC;
-    margin-right: 13px;
+    border: 1px solid #DEEBFF;
+    border-radius:40px ;
+    padding: 15px;
+    background: #DEEBFF;
+}
+.animaux_autorisé
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    padding-left: 75px;
+    padding-top: 17px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.economique:hover,.familial:hover,.romantique:hover,.animaux_autorisé:hover
+{
+    background: #F2F2F2;
 }
