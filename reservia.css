@@ -305,3 +305,27 @@ input[type="text"]:focus
 {
     background: #F2F2F2;
 }
+
+
+/*informations*/
+
+#informations
+{
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#logo_informations
+{
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 40px;
+    padding:5px 11px;
+}
+
+#informations p
+{
+    margin-left: 15px;
+}
