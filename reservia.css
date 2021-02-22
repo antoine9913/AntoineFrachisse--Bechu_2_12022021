@@ -126,7 +126,7 @@ a:hover
 
 input
 {
-    width: 200px;
+    width: 55px;
     border: #F2F2F2;
     font-size: 1.2em;
     text-align: start;
@@ -137,6 +137,13 @@ input
 input[type="text"]:focus 
 {
     outline:none;
+}
+
+p label
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .search_button
