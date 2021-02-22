@@ -17,11 +17,9 @@
         <div id="logo_reservia"><img src="logo/Reservia@3x.png" alt="#"></div>
 
         <nav>
-            <li>
-                <ul><a href="#Hébergements">Hébergements</a></ul>
-                <ul><a href="#Activités">Activités</a></ul>
-                <ul><a href="#" id="inscription">S'inscrire</a></ul>
-            </li>
+                <a href="#Hébergements">Hébergements</a>
+                <a href="#Activités">Activités</a>
+                <a href="#" id="inscription">S'inscrire</a>
         </nav>
         
     </header>
@@ -29,79 +27,80 @@
     
     <!--paragraphes-->
 
-    <div id="P1">
-        <p> Trouvez votre hébergement pour des vacances de rêve</p>
-    
-    </div>
+    <section>
+        <div class="tittle1">
+            <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
+        
+        </div>
 
-    <div id="P2">
-        <p>En plein centre ville ou en pleine nature</p>
-    </div>
+        <div class="span1">
+            <span>En plein centre ville ou en pleine nature</span>    
+        </div>
 
 
     <!--recherche localisation-->
 
-    <div id="localisation">
+        <div id="location">
 
-        <div id="logo_loc">
-            <i class="fas fa-map-marker-alt"></i>
+            <div class="logo_loc">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+
+            <div class="input">
+                    <p>
+                        <input type="text" />
+                    </p>
+            </div>
+
+            <div class="search_button">
+                <button class="button" name="button">Rechercher</button>
+            </div>
+
         </div>
 
-        <div id="nom_de_ville">
-                <p>
-                    <input type="text" />
-                </p>
+    <!--filtres-->
+
+        <div id="filters">
+
+                <h1>Filtres</h1>
+
+            <div id="economique">
+                <div id="logo_billet">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <button class="btn economique">Économique</button>
+            </div>
+
+            <div id="familial">
+                <div id="logo_child">
+                    <i class="fas fa-child"></i>
+                </div>
+                <button class="btn familial">Familial</button>
+            </div>
+
+            <div id="romantique">
+                <div id="logo_coeur">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <button class="btn romantique">Romantique</button>
+            </div>
+
+            <div id="animaux_autorisé">
+                <div id="logo_chien">
+                    <i class="fas fa-dog"></i>
+                </div>
+                <button class="btn animaux_autorisé">Animaux autorisés</button>
+                </div>
         </div>
-
-        <div id="bouton_rechercher">
-            <button id="button" name="button">Rechercher</button>
-        </div>
-
-    </div>
-
-<!--filtres-->
-
-<div id="filtres">
-
-        <p>Filtres</p>
-
-    <div id="economique">
-        <div id="logo_billet">
-            <i class="fas fa-money-bill-wave"></i>
-        </div>
-        <button class="btn economique">Économique</button>
-    </div>
-
-    <div id="familial">
-        <div id="logo_child">
-            <i class="fas fa-child"></i>
-        </div>
-        <button class="btn familial">Familial</button>
-    </div>
-
-    <div id="romantique">
-        <div id="logo_coeur">
-            <i class="fas fa-heart"></i>
-        </div>
-        <button class="btn romantique">Romantique</button>
-    </div>
-
-    <div id="animaux_autorisé">
-        <div id="logo_chien">
-            <i class="fas fa-dog"></i>
-        </div>
-        <button class="btn animaux_autorisé">Animaux autorisés</button>
-        </div>
-</div>
 
 <!--informations-->
 
-<div id="informations">
-    <div id="logo_informations">
-        <i class="fas fa-info"></i>
-    </div>
-    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-</div>
-
+        <div id="informations">
+            <div id="logo_informations">
+                <i class="fas fa-info"></i>
+            </div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </section>
 </body>
 </html>
