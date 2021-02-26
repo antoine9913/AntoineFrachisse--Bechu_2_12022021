@@ -1,0 +1,56 @@
+@media all and (max-width: 980px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    /*header*/
+    
+    header
+    {
+        flex-direction: column;
+    }
+
+    #logo_reservia img
+    {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    nav
+    {
+        border-bottom: 2px solid #F2F2F2;
+        width: 375px;
+        margin:0;
+    }
+
+    nav a
+    {
+        margin: 0;
+        padding-left: 40px;
+        padding-right: 65px;
+        padding-bottom: 15px;
+    }
+
+    a:hover
+    {
+        padding: 0;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 65px;
+    }
+
+    #inscription
+    {
+        position: absolute;
+        top: 43px;
+        right: 10px;
+        font-weight: 600;
+        border: none;
+        padding: 0;
+    }
+}
