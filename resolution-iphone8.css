@@ -1,12 +1,8 @@
-@media all and (max-width: 980px)
+@media all and (max-width: 375px)
 {
-    body
-    {
-        width: auto;
-    }
 
     /*header*/
-    
+
     header
     {
         flex-direction: column;
@@ -52,5 +48,155 @@
         font-weight: 600;
         border: none;
         padding: 0;
+    }
+
+    /*section*/
+
+    /*paragraphes*/
+    
+    .tittle1 h1
+    {
+        margin-left: 20px;  
+        font-size: 1.5em;
+    }
+
+    .span1 span
+    {
+        margin-left: 20px;
+    }
+
+    /*location search*/
+
+    .logo_loc
+    {
+        margin-left: 20px;
+        height: 18px;
+    }
+
+    .input
+    {
+        width: 260px;
+        height: 50px;
+        border: 1px solid #F2F2F2;
+    }
+
+    input
+    {
+        position: absolute;
+        width: 200px;
+        left: 80px;
+        background: none;
+    }
+
+    .search_button
+    {
+        display: none;
+    }
+
+    .logo_search
+    {
+        display: flex;
+        position: absolute;
+        margin-left: 300px;
+        padding: 18px 18px 16px 18px;
+        align-items: center;
+        padding-left: 18px;
+        padding-right: 18px;
+        border: 1px solid #0065FC;
+        color: white;
+        background-color: #0065FC;
+        border-radius: 20px;
+    }
+
+    /*Filters*/
+
+    #filters
+    {
+        margin-top: 30px;
+        width: 375px;
+        margin-left: 0;
+        flex-direction: column;
+        outline: none;
+    }
+
+    #filters h1
+    {
+        position: absolute;
+        left: 20px;
+        top: 360px;
+    }
+
+    #economique
+    {
+        margin-left: 20px;
+        margin-top: 48px;
+    }
+
+    .economique
+    {
+        width: 175px;
+        padding: 0;
+        padding-left: 52px;
+        font-weight: 600;
+    }
+
+
+    #familial
+    {
+        position: absolute;
+        right: 28px;
+        top: 418px;
+    }
+
+    .familial
+    {
+        width: 138px;
+        padding: 0;
+        padding-left: 52px;
+        font-weight: 600;
+    }
+
+    #romantique
+    {
+        margin-left: 20px;
+        margin-top: 14px;
+    }
+
+    .romantique
+    {
+        width: 168px;
+        padding: 0;
+        padding-left: 52px;
+        font-weight: 600;
+    }
+
+    #animaux_autorisé
+    {
+        margin-left: 20px;
+        margin-top: 14px;   
+    }
+
+    .animaux_autorisé
+    {
+        width: 225px;
+        padding: 0;
+        padding-left: 52px;
+        font-weight: 600;
+    }
+
+    /*informations*/
+
+    #informations
+    {
+        width: 375px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #informations p
+    {
+        margin-top: 40px;
     }
 }
