@@ -5,6 +5,7 @@
 
     header
     {
+        display: flex;
         flex-direction: column;
     }
 
@@ -27,7 +28,15 @@
         margin: 0;
         padding-left: 40px;
         padding-right: 65px;
-        padding-bottom: 15px;
+        padding-bottom: 25px;
+    }
+
+    .nav_hosting
+    {
+        width: 167px;
+        border: none;
+        border-bottom: 2px solid #0065FC;
+        padding: 0px 35px 25px 40px;
     }
 
     a:hover
@@ -35,7 +44,7 @@
         padding: 0;
         border-bottom: 2px solid #0065FC;
         border-top: none;
-        padding-bottom: 15px;
+        padding-bottom: 25px;
         padding-left: 40px;
         padding-right: 65px;
     }
@@ -198,5 +207,50 @@
     #informations p
     {
         margin-top: 40px;
+    }
+
+    /*section*/
+
+    .section
+    {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*most popular*/
+
+    .most_popular
+    {
+        width: 375px;
+        margin: 0;
+        padding: 0;
+        padding-left: 40px;
+    }
+
+    .hosting
+    {
+        display: none;
+        padding: 0;
+    }
+
+    .header h1
+    {
+        padding-top: 40px;
+    }
+    .description_pics_most_popular1
+    {
+    top: 784px;
+    }
+
+    .description_pics_most_popular2
+    {
+    top: 971px;
+    }
+
+    .description_pics_most_popular3
+    {
+    top: 1158px;
     }
 }

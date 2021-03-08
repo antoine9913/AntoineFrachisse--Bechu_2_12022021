@@ -100,7 +100,7 @@ a:hover
 
 
 
-.tittle1 h1
+.title1 h1
 {
     margin-top: 35px;
     margin-left: 50px;
@@ -397,6 +397,7 @@ p label
 {
     position: absolute;
     top: 697px;
+    background-size: cover;
     background-color: white;
     width: 228px;
     border-radius: 0 0 20px 20px;
