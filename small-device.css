@@ -63,7 +63,7 @@
 
     /*paragraphes*/
     
-    .tittle1 h1
+    .title1 h1
     {
         margin-left: 20px;  
         font-size: 1.5em;
@@ -138,7 +138,7 @@
     #economique
     {
         margin-left: 20px;
-        margin-top: 48px;
+        margin-top: 30px;
     }
 
     .economique
@@ -154,7 +154,7 @@
     {
         position: absolute;
         right: 28px;
-        top: 418px;
+        top: 410px;
     }
 
     .familial
@@ -223,34 +223,210 @@
 
     .most_popular
     {
-        width: 375px;
+        width: auto;
+        height: 580px;
         margin: 0;
         padding: 0;
-        padding-left: 40px;
-    }
-
-    .hosting
-    {
-        display: none;
-        padding: 0;
+        padding-left: 20px;
+        border-radius: 0;
     }
 
     .header h1
     {
+        margin: 0;
         padding-top: 40px;
+        font-size: 1,4em;
+        margin-bottom: 25px;
     }
+
+    #logo_header
+    {
+        padding-left: 90px;
+        padding-top: 20px;
+    }
+
+    .pics_most_popular img
+    {
+        margin-bottom: 10px;
+    }
+
     .description_pics_most_popular1
     {
-    top: 784px;
+        width: 175px;
+        top: 811px;
+        right: 20px;
     }
 
     .description_pics_most_popular2
     {
-    top: 971px;
+        width: 175px;
+        top: 968px;
+        right: 20px;
     }
 
     .description_pics_most_popular3
     {
-    top: 1158px;
+        width: 175px;
+        top: 1125px;
+        right: 20px;
+    }
+
+    /*hosting*/
+
+    .contains_hosting
+    {
+        background: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    #pics_hosting
+    {
+        flex-direction: column;
+    }
+
+    .pics_hosting_1
+    {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px  #d9d9d9;
+        background-position: bottom 23px right -6px;
+    }
+
+    .pics_hosting_2
+    {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px  #d9d9d9;
+        background-position: bottom 23px right -6px;
+    }
+
+    .pics_hosting_3
+    {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px  #d9d9d9;
+        background-position: bottom 26px right -12px;
+    }
+
+    .pics_hosting_4
+    {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px  #d9d9d9;
+        background-position: bottom 302px right -6px;
+    }
+    
+    .pics_hosting_5
+    {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 12px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px  #d9d9d9;
+        background-position: bottom 45px right -6px;
+    }
+
+    .pics_hosting_6
+    {
+        width: 335px;
+        height: 200px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px  #d9d9d9;
+        background-position: bottom 406px right -6px;
+    }
+
+    .description_pics1
+    {
+        position: absolute;
+        top: 809px;
+        left: -1px;
+        width: 325px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        padding-left: 15px;
+    }
+
+    .description_pics2
+    {
+        position: absolute;
+        top: 1030px;
+        left: -1px;
+        width: 325px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        padding-left: 15px;
+    }
+
+    .description_pics3
+    {
+        position: absolute;
+        top: 1249px;
+        left: -1px;
+        width: 325px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        padding-left: 15px;
+    }
+
+    .description_pics4
+    {
+        position: absolute;
+        top: 1217px;
+        left: -1px;
+        width: 325px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        padding-left: 15px;
+    }
+
+    .description_pics5
+    {
+        position: absolute;
+        top: 1437px;
+        left: -1px;
+        width: 325px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        padding-left: 15px;
+    }
+
+    .description_pics6
+    {
+        position: absolute;
+        top: 1657px;
+        left: -1px;
+        width: 325px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+        padding-left: 15px;
+    }
+
+
+    /*Activity*/
+
+    .contains_activity
+    {
+
+        margin-top: 760px;
+    }
+    .pics_activity
+    {
+        display: none;
     }
 }

@@ -382,6 +382,48 @@ p label
     justify-content: space-between;
 }
 
+.hosting_1 a
+{
+    width: 235px;
+    height: 200px;
+    color: black;
+}
+
+.hosting_2 a
+{
+    width: 235px;
+    height: 200px;
+    color: black;
+}
+
+.hosting_3 a
+{
+    width: 235px;
+    height: 200px;
+    color: black;
+}
+
+.hosting_4 a
+{
+    width: 235px;
+    height: 200px;
+    color: black;
+}
+
+.hosting_5 a
+{
+    width: 235px;
+    height: 200px;
+    color: black;
+}
+
+.hosting_6 a
+{
+    width: 235px;
+    height: 200px;
+    color: black;
+}
+
 .pics_hosting_1
 {
     width: 235px;
@@ -454,7 +496,7 @@ p label
     background-position: bottom 330px right 0;
 }
 
-.description_pics_top
+.contain_description_pics_top
 {
     position: absolute;
     top: 697px;
@@ -465,7 +507,7 @@ p label
     padding-left: 15px;
 }
 
-.description_pics_bottom
+.contain_description_pics_bottom
 {
     position: absolute;
     top: 949px;
