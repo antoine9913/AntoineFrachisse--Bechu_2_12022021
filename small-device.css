@@ -536,4 +536,58 @@
         top: 119px;
     }
 
+    /*footer*/
+
+    footer
+    {
+        width: auto;
+        height: 460px;
+        margin-top: 230px;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    footer span 
+    {
+        font-size: 1em;
+    }
+
+    footer h3
+    {
+        font-size: 1.2em;
+    }
+
+    .footer_about
+    {
+        padding-top: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer_about a
+    {
+        margin-bottom: 10px;
+    }
+
+    .footer_hosting
+    {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer_hosting a
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .footer_assistance
+    {
+        margin: 0;
+    }
+
+    .footer_assistance a
+    {
+        margin-bottom: 10px;
+    }
 }
