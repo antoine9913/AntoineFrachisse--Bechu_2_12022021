@@ -44,7 +44,7 @@ header
 }
 
 
-#logo_reservia img
+.logo_reservia img
 {
     width: 95px;
     height: 45px;
@@ -100,16 +100,16 @@ a:hover
 
 
 
-.title1 h1
+.section_title h1
 {
     margin-top: 35px;
     margin-left: 50px;
     margin-bottom: 10px;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 
-.span1 span
+.section_sub-title span
 {
     margin-top: 10px;
     margin-left: 50px;
@@ -117,13 +117,13 @@ a:hover
 
 /*location chearch*/
 
-#location
+.location
 {
     display: flex;
     margin-top: 20px;
 }
 
-.logo_loc
+.logo_location
 {
     padding: 17px 18px 15px 20px;
     border: 1px solid #F2F2F2;
@@ -187,7 +187,7 @@ p label
 
 /*Filtres*/
 
-#filters
+.filters
 {
     display: flex;
     flex-direction: row;
@@ -200,7 +200,7 @@ p label
     text-align: center;
 }
 
-#filters h1
+.filters h1
 {
     font-size: 0.8em;
     font-weight: bold;
@@ -216,13 +216,13 @@ p label
     transition: 0.8s;
 }
 
-#economique
+.contains_economique
 {
     display: flex;
     align-items: center;
 }
 
-#logo_billet
+.logo_billet
 {
     position: absolute;
     color: #0065FC;
@@ -243,13 +243,13 @@ p label
     font-size: 0.8em;
 }
 
-#familial
+.contains_familial
 {
     display: flex;
     align-items: center;
 }
 
-#logo_child
+.logo_child
 {
     position: absolute;
     color: #0065FC;
@@ -269,13 +269,13 @@ p label
     font-size: 0.8em;
 }
 
-#romantique
+.contains_romantique
 {
     display: flex;
     align-items: center;
 }
 
-#logo_coeur
+.logo_coeur
 {
     position: absolute;
     color: #0065FC;
@@ -295,13 +295,13 @@ p label
     font-size: 0.8em;
 }
 
-#animaux_autorisé
+.contains_animaux_autorisé
 {
     display: flex;
     align-items: center;
 }
 
-#logo_chien
+.logo_chien
 {
     position: absolute;
     color: #0065FC;
@@ -329,7 +329,7 @@ p label
 
 /*informations*/
 
-#informations
+.informations
 {
     display: flex;
     margin-left: 60px;
@@ -337,7 +337,7 @@ p label
     margin-top: 20px;
 }
 
-#logo_informations
+.logo_informations
 {
     color: #0065FC;
     border: 1px solid #F2F2F2;
@@ -345,7 +345,7 @@ p label
     padding:5px 11px;
 }
 
-#informations p
+.informations p
 {
     margin-left: 15px;
 }
@@ -375,7 +375,7 @@ p label
     border-radius: 20px;
 }
 
-#pics_hosting
+.picture_hosting
 {
     display: flex;
     flex-wrap: wrap;
@@ -424,7 +424,7 @@ p label
     color: black;
 }
 
-.pics_hosting_1
+.picture_hosting_1
 {
     width: 235px;
     height: 200px;
@@ -436,7 +436,7 @@ p label
     background-position: bottom 60px right 0;
 }
 
-.pics_hosting_2
+.picture_hosting_2
 {
     width: 235px;
     height: 200px;
@@ -448,7 +448,7 @@ p label
     background-position: bottom 60px right 0;
 }
 
-.pics_hosting_3
+.picture_hosting_3
 {
     width: 235px;
     height: 200px;
@@ -460,7 +460,7 @@ p label
     background-position: bottom 60px right 0;
 }
 
-.pics_hosting_4
+.picture_hosting_4
 {
     width: 235px;
     height: 200px;
@@ -472,7 +472,7 @@ p label
     background-position: bottom 25px right 0;
 }
 
-.pics_hosting_5
+.picture_hosting_5
 {
     width: 235px;
     height: 200px;
@@ -484,7 +484,7 @@ p label
     background-position: bottom 65px right 0;
 }
 
-.pics_hosting_6
+.picture_hosting_6
 {
     width: 235px;
     height: 200px;
@@ -496,7 +496,7 @@ p label
     background-position: bottom 330px right 0;
 }
 
-.contain_description_pics_top
+.contain_description_picture_top
 {
     position: absolute;
     top: 697px;
@@ -507,7 +507,7 @@ p label
     padding-left: 15px;
 }
 
-.contain_description_pics_bottom
+.contain_description_picture_bottom
 {
     position: absolute;
     top: 949px;
@@ -517,13 +517,13 @@ p label
     padding-left: 15px;
 }
 
-#pics_hosting h2 
+.picture_hosting h2 
 {
     font-size: 1.03em;
     margin-bottom: 4px;
 }
 
-#pics_hosting span
+.picture_hosting span
 {
     font-size: 0.9em;
 }
@@ -571,12 +571,12 @@ p label
     margin-right: 120px;
 }
 
-#logo_header
+.logo_header
 {
     font-size: 22px;
 }
 
-#pics_most_popular
+.picture_most_popular
 {
     display: flex;
     flex-direction: column;
@@ -584,7 +584,7 @@ p label
 }
 
 
-.pics_most_popular img
+.picture_most_popular img
 {
     width: 150px;
     height: 135px;
@@ -595,7 +595,7 @@ p label
     margin-bottom: 40px;
 }
 
-.description_pics_most_popular1
+.description_picture_most_popular1
 {
     position: absolute;
     top: 576px;
@@ -607,7 +607,7 @@ p label
     padding-left: 20px;
 }
 
-.description_pics_most_popular2
+.description_picture_most_popular2
 {
     position: absolute;
     top: 763px;
@@ -619,7 +619,7 @@ p label
     padding-left: 20px;
 }
 
-.description_pics_most_popular3
+.description_picture_most_popular3
 {
     position: absolute;
     top: 950px;
@@ -631,13 +631,13 @@ p label
     padding-left: 20px;
 }
 
-.pics_most_popular h2 
+.picture_most_popular h2 
 {
     font-size: 1.03em;
     margin-bottom: 4px;
 }
 
-.pics_most_popular span
+.picture_most_popular span
 {
     font-size: 0.9em;
 }
@@ -652,19 +652,19 @@ p label
 /*activity*/
 
 
-.pics_activity
+.picture_activity
 {
     display: flex;
     flex-direction: row;
 }
 
-.pics1
+.picture1
 {
     margin-right: 45px;
     border-radius: 20px;
 }
 
-.pics1 img
+.picture1 img
 {
     width: 302px;
     height: 445px;
@@ -673,13 +673,13 @@ p label
     box-shadow: 0px 0px 10px  #d9d9d9;
 }
 
-.pics2
+.picture2
 {
     margin-right: 45px;
     border-radius: 20px;
 }
 
-.pics2 img
+.picture2 img
 {
     width: 302px;
     height: 238px;
@@ -688,14 +688,14 @@ p label
     box-shadow: 0px 0px 10px  #d9d9d9;
 }
 
-.pics3
+.picture3
 {
     position: absolute;
     left: 398px;
     top: 1514px;
     border-radius: 20px;
 }
-.pics3 img
+.picture3 img
 {
     width: 302px;
     height: 164px;
@@ -704,13 +704,13 @@ p label
     box-shadow: 0px 0px 10px  #d9d9d9;
 }
 
-.pics4
+.picture4
 {
     margin-right: 45px;
     border-radius: 20px;
 }
 
-.pics4 img
+.picture4 img
 {
     width: 302px;
     height: 445px;
@@ -719,12 +719,12 @@ p label
     box-shadow: 0px 0px 10px  #d9d9d9;
 }
 
-.pics5
+.picture5
 {
     border-radius: 20px;
 }
 
-.pics5 img
+.picture5 img
 {
     width: 302px;
     height: 195px;
@@ -733,7 +733,7 @@ p label
     box-shadow: 0px 0px 10px  #d9d9d9;
 }
 
-.pics6
+.picture6
 {
     position: absolute;
     left: 1093px;
@@ -741,7 +741,7 @@ p label
     border-radius: 20px;
 }
 
-.pics6 img
+.picture6 img
 {
     width: 302px;
     height: 208px;
@@ -750,13 +750,13 @@ p label
     box-shadow: 0px 0px 10px  #d9d9d9;
 }
 
-.pics_activity h2
+.picture_activity h2
 {
 font-size: 1em;
 padding-left: 20px;
 }
 
-.pics1 h2
+.picture1 h2
 {
     position: absolute;
     top: 1606px;
@@ -767,7 +767,7 @@ padding-left: 20px;
 }
 
 
-.pics2 h2
+.picture2 h2
 {
     position: absolute;
     top: 1399px;
@@ -777,7 +777,7 @@ padding-left: 20px;
     border-radius: 0px 0px 20px 20px;
 }
 
-.pics3 h2
+.picture3 h2
 {
     position: absolute;
     top: 93px;
@@ -787,7 +787,7 @@ padding-left: 20px;
     border-radius: 0px 0px 20px 20px;
 }
 
-.pics4 h2
+.picture4 h2
 {
     position: absolute;
     top: 1606px;
@@ -797,7 +797,7 @@ padding-left: 20px;
     border-radius: 0px 0px 20px 20px;
 }
 
-.pics5 h2
+.picture5 h2
 {
     position: absolute;
     top: 1356px;
@@ -807,7 +807,7 @@ padding-left: 20px;
     border-radius: 0px 0px 20px 20px;
 }
 
-.pics6 h2
+.picture6 h2
 {
     position: absolute;
     top: 137px;

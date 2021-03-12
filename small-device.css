@@ -9,7 +9,7 @@
         flex-direction: column;
     }
 
-    #logo_reservia img
+    .logo_reservia img
     {
         margin-top: 30px;
         margin-left: 20px;
@@ -63,20 +63,21 @@
 
     /*paragraphes*/
     
-    .title1 h1
+    .section_title h1
     {
+        width: 315px;
         margin-left: 20px;  
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
-    .span1 span
+    .section_sub-title span
     {
         margin-left: 20px;
     }
 
     /*location search*/
 
-    .logo_loc
+    .logo_location
     {
         margin-left: 20px;
         height: 18px;
@@ -119,7 +120,7 @@
 
     /*Filters*/
 
-    #filters
+    .filters
     {
         margin-top: 30px;
         width: 375px;
@@ -128,14 +129,14 @@
         outline: none;
     }
 
-    #filters h1
+    .filters h1
     {
         position: absolute;
         left: 20px;
         top: 360px;
     }
 
-    #economique
+    .contains_economique
     {
         margin-left: 20px;
         margin-top: 30px;
@@ -150,7 +151,7 @@
     }
 
 
-    #familial
+    .contains_familial
     {
         position: absolute;
         right: 28px;
@@ -165,7 +166,7 @@
         font-weight: 600;
     }
 
-    #romantique
+    .contains_romantique
     {
         margin-left: 20px;
         margin-top: 14px;
@@ -179,7 +180,7 @@
         font-weight: 600;
     }
 
-    #animaux_autorisé
+    .contains_animaux_autorisé
     {
         margin-left: 20px;
         margin-top: 14px;   
@@ -195,7 +196,7 @@
 
     /*informations*/
 
-    #informations
+    .informations
     {
         width: 375px;
         height: 30px;
@@ -204,7 +205,7 @@
         margin-bottom: 30px;
     }
 
-    #informations p
+    .informations p
     {
         margin-top: 40px;
     }
@@ -239,32 +240,32 @@
         margin-bottom: 25px;
     }
 
-    #logo_header
+    .logo_header
     {
         padding-left: 90px;
         padding-top: 20px;
     }
 
-    .pics_most_popular img
+    .picture_most_popular img
     {
         margin-bottom: 10px;
     }
 
-    .description_pics_most_popular1
+    .description_picture_most_popular1
     {
         width: 175px;
         top: 811px;
         right: 20px;
     }
 
-    .description_pics_most_popular2
+    .description_picture_most_popular2
     {
         width: 175px;
         top: 968px;
         right: 20px;
     }
 
-    .description_pics_most_popular3
+    .description_picture_most_popular3
     {
         width: 175px;
         top: 1125px;
@@ -281,12 +282,12 @@
         padding: 0;
     }
 
-    #pics_hosting
+    .picture_hosting
     {
         flex-direction: column;
     }
 
-    .pics_hosting_1
+    .picture_hosting_1
     {
         width: 335px;
         height: 200px;
@@ -296,7 +297,7 @@
         background-position: bottom 23px right -6px;
     }
 
-    .pics_hosting_2
+    .picture_hosting_2
     {
         width: 335px;
         height: 200px;
@@ -306,7 +307,7 @@
         background-position: bottom 23px right -6px;
     }
 
-    .pics_hosting_3
+    .picture_hosting_3
     {
         width: 335px;
         height: 200px;
@@ -316,7 +317,7 @@
         background-position: bottom 26px right -12px;
     }
 
-    .pics_hosting_4
+    .picture_hosting_4
     {
         width: 335px;
         height: 200px;
@@ -326,7 +327,7 @@
         background-position: bottom 302px right -6px;
     }
     
-    .pics_hosting_5
+    .picture_hosting_5
     {
         width: 335px;
         height: 200px;
@@ -336,7 +337,7 @@
         background-position: bottom 45px right -6px;
     }
 
-    .pics_hosting_6
+    .picture_hosting_6
     {
         width: 335px;
         height: 200px;
@@ -345,7 +346,7 @@
         background-position: bottom 406px right -6px;
     }
 
-    .description_pics1
+    .description_picture1
     {
         position: absolute;
         top: 809px;
@@ -357,7 +358,7 @@
         padding-left: 15px;
     }
 
-    .description_pics2
+    .description_picture2
     {
         position: absolute;
         top: 1030px;
@@ -369,7 +370,7 @@
         padding-left: 15px;
     }
 
-    .description_pics3
+    .description_picture3
     {
         position: absolute;
         top: 1249px;
@@ -381,7 +382,7 @@
         padding-left: 15px;
     }
 
-    .description_pics4
+    .description_picture4
     {
         position: absolute;
         top: 1217px;
@@ -393,7 +394,7 @@
         padding-left: 15px;
     }
 
-    .description_pics5
+    .description_picture5
     {
         position: absolute;
         top: 1437px;
@@ -405,7 +406,7 @@
         padding-left: 15px;
     }
 
-    .description_pics6
+    .description_picture6
     {
         position: absolute;
         top: 1657px;
@@ -425,112 +426,112 @@
         margin-top: 800px;
         margin-left: 20px;
     }
-    .pics_activity
+    .picture_activity
     {
         flex-direction: column;
     }
 
-    .pics1 
+    .picture1 
     {
         padding-bottom: 20px;
     }
 
-    .pics1 img
+    .picture1 img
     {
         width: 335px;
         height: 190px;
     }
-    .pics1 h2
+    .picture1 h2
     {
         width: 315px;
         top: 2980px;
     }
 
-    .pics2
+    .picture2
     {
         padding-bottom: 20px;
     }
 
-    .pics2 img
+    .picture2 img
     {
         width: 335px;
         height: 190px;
         margin-bottom: 213px;
     }
 
-    .pics2 h2
+    .picture2 h2
     {
         width: 315px;
         top: 3194px;
     }
 
-    .pics3
+    .picture3
     {
         padding-bottom: 20px;
         top: 3288px;
         left: 20px;
     }
 
-    .pics3 img
+    .picture3 img
     {
         width: 335px;
         height: 190px;
     }
 
-    .pics3 h2
+    .picture3 h2
     {
         width: 315px;
         top: 119px;
     }
 
-    .pics4
+    .picture4
     {
         padding-bottom: 20px;
     }
 
-    .pics4 img
+    .picture4 img
     {
         width: 335px;
         height: 190px;
     }
 
-    .pics4 h2
+    .picture4 h2
     {
         width: 315px;
         top: 3621px;
     }
 
-    .pics5
+    .picture5
     {
         padding-bottom: 20px;
     }
 
-    .pics5 img
+    .picture5 img
     {
         width: 335px;
         height: 190px;
     }
 
-    .pics5 h2
+    .picture5 h2
     {
         width: 315px;
         top: 3835px;
     }
 
-    .pics6
+    .picture6
     {
         padding-bottom: 20px;
         top: 3930px;
         left: 20px;
     }
 
-    .pics6 img
+    .picture6 img
     {
         width: 335px;
         height: 190px;
     }
 
-    .pics6 h2
+    .picture6 h2
     {
         width: 315px;
         top: 119px;
