@@ -139,7 +139,7 @@ a:hover
 
 input
 {
-    width: 55px;
+    width: 245px;
     border: #F2F2F2;
     font-size: 1.2em;
     text-align: start;
@@ -154,6 +154,7 @@ input[type="text"]:focus
 
 p label
 {
+    position: absolute;
     font-size: 1.1em;
     font-weight: bold;
     margin-left: 20px;
@@ -340,9 +341,10 @@ p label
 .logo_informations
 {
     color: #0065FC;
-    border: 1px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     border-radius: 40px;
-    padding:5px 11px;
+    padding:4px 9px;
+    font-size: 0.8em;
 }
 
 .informations p
@@ -371,7 +373,7 @@ p label
     width: 880px;
     height: 625px;
     background-color: #F2F2F2;
-    padding: 50px 40px 0px 40px;
+    padding: 25px 40px 0px 40px;
     border-radius: 20px;
 }
 
@@ -431,6 +433,7 @@ p label
     border: 4px solid white;
     border-radius: 20px;
     margin-bottom: 40px;
+    margin-left: 5px;
     background-image: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
     background-size: 105%;
     background-position: bottom 60px right 0;
@@ -499,21 +502,27 @@ p label
 .contain_description_picture_top
 {
     position: absolute;
-    top: 697px;
+    top: 668px;
     background-size: cover;
     background-color: white;
-    width: 224px;
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 220px;
     border-radius: 0 0 15px 15px;
+    margin-left: -4px;
     padding-left: 15px;
 }
 
 .contain_description_picture_bottom
 {
     position: absolute;
-    top: 949px;
+    top: 912px;
     background-color: white;
-    width: 224px;
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 220px;
     border-radius: 0 0 15px 15px;
+    margin-left: -4px;
     padding-left: 15px;
 }
 
@@ -539,12 +548,19 @@ p label
 .stars_blue
 {
     color: #0065FC;
+    font-size: 0.7em;
 }
 
 .stars_grey
 {
     color: #d9d9d9;
-    padding-left: 5px;
+    padding-left: 4px;
+    font-size: 0.7em;
+}
+
+.contains_hosting span
+{
+    font-size: 1.1em;
 }
 
 /*Most popular*/
@@ -555,7 +571,7 @@ p label
     height: 625px;
     background-color: #F2F2F2;
     margin-left: 40px;
-    padding: 50px 40px 0px 40px;
+    padding: 25px 40px 0px 40px;
     border-radius: 20px;
 }
 
@@ -573,7 +589,7 @@ p label
 
 .logo_header
 {
-    font-size: 22px;
+    font-size: 1.3em;
 }
 
 .picture_most_popular
@@ -598,7 +614,7 @@ p label
 .description_picture_most_popular1
 {
     position: absolute;
-    top: 576px;
+    top: 548px;
     background-color: white;
     width: 215px;
     height: 143px;
@@ -610,7 +626,7 @@ p label
 .description_picture_most_popular2
 {
     position: absolute;
-    top: 763px;
+    top: 735px;
     background-color: white;
     width: 215px;
     height: 143px;
@@ -622,7 +638,7 @@ p label
 .description_picture_most_popular3
 {
     position: absolute;
-    top: 950px;
+    top: 922px;
     background-color: white;
     width: 215px;
     height: 143px;
@@ -692,7 +708,7 @@ p label
 {
     position: absolute;
     left: 398px;
-    top: 1514px;
+    top: 1484px;
     border-radius: 20px;
 }
 .picture3 img
@@ -737,7 +753,7 @@ p label
 {
     position: absolute;
     left: 1093px;
-    top: 1470px;
+    top: 1440px;
     border-radius: 20px;
 }
 
@@ -759,7 +775,7 @@ padding-left: 20px;
 .picture1 h2
 {
     position: absolute;
-    top: 1606px;
+    top: 1577px;
     background-color: white;
     width: 282px;
     padding: 20px 0px 20px 20px;
@@ -770,7 +786,7 @@ padding-left: 20px;
 .picture2 h2
 {
     position: absolute;
-    top: 1399px;
+    top: 1370px;
     background-color: white;
     width: 282px;
     padding: 20px 0px 20px 20px;
@@ -790,7 +806,7 @@ padding-left: 20px;
 .picture4 h2
 {
     position: absolute;
-    top: 1606px;
+    top: 1577px;
     background-color: white;
     width: 282px;
     padding: 20px 0px 20px 20px;
@@ -800,7 +816,7 @@ padding-left: 20px;
 .picture5 h2
 {
     position: absolute;
-    top: 1356px;
+    top: 1327px;
     background-color: white;
     width: 282px;
     padding: 20px 0px 20px 20px;
@@ -830,12 +846,12 @@ footer
 
 footer span
 {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 footer h3
 {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .footer_about
