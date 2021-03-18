@@ -18,10 +18,8 @@
 
     nav
     {
-        position: absolute;
-        top: 100px;
         border-bottom: 3px solid #F2F2F2;
-        width: 215px;
+        width: 375px;
         margin:0;
     }
 
@@ -30,15 +28,15 @@
         margin: 0;
         padding-left: 40px;
         padding-right: 65px;
-        padding-bottom: 12px;
+        padding-bottom: 25px;
     }
 
     .nav_hosting
     {
-        width: 160px;
+        width: 167px;
         border: none;
         border-bottom: 3px solid #0065FC;
-        padding: 0px 0px 12px 40px;
+        padding: 0px 35px 25px 40px;
     }
 
     a:hover
@@ -54,7 +52,7 @@
     #inscription
     {
         position: absolute;
-        top: -56px;
+        top: 43px;
         right: 10px;
         font-weight: 600;
         border: none;
@@ -146,7 +144,7 @@
 
     .economique
     {
-        width: 175px;
+        width: 180px;
         padding: 0;
         padding-left: 52px;
         font-weight: 600;
@@ -156,13 +154,13 @@
     .contains_familial
     {
         position: absolute;
-        right: 28px;
+        right: 24px;
         top: 410px;
     }
 
     .familial
     {
-        width: 138px;
+        width: 143px;
         padding: 0;
         padding-left: 52px;
         font-weight: 600;
@@ -176,7 +174,7 @@
 
     .romantique
     {
-        width: 168px;
+        width: 173px;
         padding: 0;
         padding-left: 52px;
         font-weight: 600;
@@ -190,10 +188,15 @@
 
     .animaux_autorisé
     {
-        width: 225px;
+        width: 230px;
         padding: 0;
         padding-left: 52px;
         font-weight: 600;
+    }
+
+    .economique:hover,.familial:hover,.romantique:hover,.animaux_autorisé:hover
+    {
+        background: none;
     }
 
     /*informations*/
@@ -201,15 +204,9 @@
     .informations
     {
         width: 375px;
-        height: 30px;
+        height: 50px;
         margin-left: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .informations p
-    {
-        margin-top: 40px;
+        margin-bottom: 15px;
     }
 
     /*section*/
@@ -217,7 +214,6 @@
     .section
     {
         flex-direction: column-reverse;
-        margin-top: 50px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -256,21 +252,21 @@
     .description_picture_most_popular1
     {
         width: 175px;
-        top: 811px;
+        top: 797px;
         right: 20px;
     }
 
     .description_picture_most_popular2
     {
         width: 175px;
-        top: 968px;
+        top: 954px;
         right: 20px;
     }
 
     .description_picture_most_popular3
     {
         width: 175px;
-        top: 1125px;
+        top: 1111px;
         right: 20px;
     }
 
@@ -294,6 +290,7 @@
         width: 335px;
         height: 200px;
         margin-bottom: 12px;
+        margin-left: 0;
         border-radius: 20px;
         box-shadow: 0px 0px 10px  #d9d9d9;
         background-position: bottom 23px right -6px;
@@ -346,14 +343,15 @@
         border-radius: 20px;
         box-shadow: 0px 0px 10px  #d9d9d9;
         background-position: bottom 406px right -6px;
+        margin-bottom: 30px;
     }
 
     .description_picture1
     {
         position: absolute;
-        top: 809px;
+        top: 825px;
         left: -1px;
-        width: 325px;
+        width: 321px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -363,9 +361,9 @@
     .description_picture2
     {
         position: absolute;
-        top: 1030px;
+        top: 1045px;
         left: -1px;
-        width: 325px;
+        width: 321px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -375,9 +373,9 @@
     .description_picture3
     {
         position: absolute;
-        top: 1249px;
+        top: 1265px;
         left: -1px;
-        width: 325px;
+        width: 321px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -387,9 +385,9 @@
     .description_picture4
     {
         position: absolute;
-        top: 1217px;
+        top: 1243px;
         left: -1px;
-        width: 325px;
+        width: 321px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -399,9 +397,9 @@
     .description_picture5
     {
         position: absolute;
-        top: 1437px;
+        top: 1463px;
         left: -1px;
-        width: 325px;
+        width: 321px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -411,13 +409,18 @@
     .description_picture6
     {
         position: absolute;
-        top: 1657px;
+        top: 1683px;
         left: -1px;
-        width: 325px;
+        width: 321px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
         padding-left: 15px;
+    }
+
+    .picture_hosting span
+    {
+        font-size: 0.9em;
     }
 
 
@@ -425,8 +428,9 @@
 
     .contains_activity
     {
-        margin-top: 800px;
+        margin-top: 795px;
         margin-left: 20px;
+        height: 1377px;
     }
     .picture_activity
     {
@@ -446,7 +450,7 @@
     .picture1 h2
     {
         width: 315px;
-        top: 2980px;
+        top: 2941px;
     }
 
     .picture2
@@ -464,13 +468,13 @@
     .picture2 h2
     {
         width: 315px;
-        top: 3194px;
+        top: 3155px;
     }
 
     .picture3
     {
         padding-bottom: 20px;
-        top: 3288px;
+        top: 3251px;
         left: 20px;
     }
 
@@ -500,7 +504,7 @@
     .picture4 h2
     {
         width: 315px;
-        top: 3621px;
+        top: 3582px;
     }
 
     .picture5
@@ -517,13 +521,13 @@
     .picture5 h2
     {
         width: 315px;
-        top: 3835px;
+        top: 3796px;
     }
 
     .picture6
     {
         padding-bottom: 20px;
-        top: 3930px;
+        top: 3890px;
         left: 20px;
     }
 
@@ -543,9 +547,9 @@
 
     footer
     {
+        margin: 0;
         width: auto;
         height: 460px;
-        margin-top: 230px;
         flex-direction: column;
         padding-left: 30px;
     }
