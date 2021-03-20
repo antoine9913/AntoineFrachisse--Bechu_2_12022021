@@ -349,7 +349,7 @@
     .description_picture1
     {
         position: absolute;
-        top: 825px;
+        top: 830px;
         left: -1px;
         width: 321px;
         background-size: cover;
@@ -361,7 +361,7 @@
     .description_picture2
     {
         position: absolute;
-        top: 1045px;
+        top: 1050px;
         left: -1px;
         width: 321px;
         background-size: cover;
@@ -373,7 +373,7 @@
     .description_picture3
     {
         position: absolute;
-        top: 1265px;
+        top: 1270px;
         left: -1px;
         width: 321px;
         background-size: cover;
@@ -385,9 +385,9 @@
     .description_picture4
     {
         position: absolute;
-        top: 1243px;
-        left: -1px;
-        width: 321px;
+        top: 1245px;
+        left: 3px;
+        width: 322px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -397,9 +397,9 @@
     .description_picture5
     {
         position: absolute;
-        top: 1463px;
-        left: -1px;
-        width: 321px;
+        top: 1465px;
+        left: 3px;
+        width: 322px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
@@ -409,13 +409,18 @@
     .description_picture6
     {
         position: absolute;
-        top: 1683px;
-        left: -1px;
-        width: 321px;
+        top: 1685px;
+        left: 3px;
+        width: 322px;
         background-size: cover;
         background-color: white;
         border-radius: 0 0 15px 15px;
         padding-left: 15px;
+    }
+
+    .contain_description_picture_bottom
+    {
+        border: none;
     }
 
     .picture_hosting span
