@@ -30,8 +30,12 @@
 body
 {
     background-color: white;
-    width: 900px;
     font-family: 'Raleway', serif;
+}
+
+.block_pages
+{
+    width: 900px;
     margin: auto;
 }
 
