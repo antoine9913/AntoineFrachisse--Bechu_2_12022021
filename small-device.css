@@ -11,9 +11,7 @@
 
     .logo_reservia img
     {
-        margin-top: 30px;
-        margin-left: 20px;
-        margin-bottom: 30px;
+        margin: 30px 0 30px 20px;
     }
 
     nav
@@ -26,9 +24,7 @@
     nav a
     {
         margin: 0;
-        padding-left: 40px;
-        padding-right: 65px;
-        padding-bottom: 25px;
+        padding: 0 65px 25px 40px;
     }
 
     .nav_hosting
@@ -41,12 +37,9 @@
 
     a:hover
     {
-        padding: 0;
         border-bottom: 3px solid #0065FC;
         border-top: none;
-        padding-bottom: 25px;
-        padding-left: 40px;
-        padding-right: 65px;
+        padding: 0 65px 25px 40px;
     }
 
     #inscription
@@ -110,8 +103,6 @@
         margin-left: 300px;
         padding: 18px 18px 16px 18px;
         align-items: center;
-        padding-left: 18px;
-        padding-right: 18px;
         border: 1px solid #0065FC;
         color: white;
         background-color: #0065FC;
@@ -122,9 +113,8 @@
 
     .filters
     {
-        margin-top: 30px;
+        margin: 30px 0 0 0;
         width: 375px;
-        margin-left: 0;
         flex-direction: column;
         outline: none;
     }
@@ -138,15 +128,13 @@
 
     .contains_economique
     {
-        margin-left: 20px;
-        margin-top: 30px;
+        margin: 30px 0 0 20px;
     }
 
     .economique
     {
         width: 180px;
-        padding: 0;
-        padding-left: 52px;
+        padding: 0 0 0 52px;
         font-weight: 600;
     }
 
@@ -161,36 +149,31 @@
     .familial
     {
         width: 143px;
-        padding: 0;
-        padding-left: 52px;
+        padding: 0 0 0 52px;
         font-weight: 600;
     }
 
     .contains_romantique
     {
-        margin-left: 20px;
-        margin-top: 14px;
+        margin: 14px 0 0 20px;
     }
 
     .romantique
     {
         width: 173px;
-        padding: 0;
-        padding-left: 52px;
+        padding: 0 0 0 52px;
         font-weight: 600;
     }
 
     .contains_animaux_autorisé
     {
-        margin-left: 20px;
-        margin-top: 14px;   
+        margin: 14px 0 0 20px; 
     }
 
     .animaux_autorisé
     {
         width: 230px;
-        padding: 0;
-        padding-left: 52px;
+        padding: 0 0 0 52px;
         font-weight: 600;
     }
 
@@ -205,8 +188,7 @@
     {
         width: 375px;
         height: 50px;
-        margin-left: 20px;
-        margin-bottom: 15px;
+        margin: 20px 0 15px 20px;
     }
 
     /*section*/
@@ -214,8 +196,7 @@
     .section
     {
         flex-direction: column-reverse;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 30px 0 0 0;
     }
 
     /*most popular*/
@@ -225,23 +206,20 @@
         width: auto;
         height: 580px;
         margin: 0;
-        padding: 0;
-        padding-left: 20px;
+        padding: 0 0 0 20px;
         border-radius: 0;
     }
 
     .header h1
     {
-        margin: 0;
+        margin: 0 0 25px 0;
         padding-top: 40px;
         font-size: 1,4em;
-        margin-bottom: 25px;
     }
 
     .logo_header
     {
-        padding-left: 90px;
-        padding-top: 20px;
+        padding: 20px 0 0 90px;
     }
 
     .picture_most_popular img
@@ -275,8 +253,7 @@
     .contains_hosting
     {
         background: none;
-        margin-top: 20px;
-        margin-left: 20px;
+        margin: 20px 40px 0 20px;
         padding: 0;
     }
 
@@ -289,8 +266,7 @@
     {
         width: 335px;
         height: 200px;
-        margin-bottom: 12px;
-        margin-left: 0;
+        margin: 0 0 12px 0;
         border-radius: 20px;
         box-shadow: 0px 0px 10px  #d9d9d9;
         background-position: bottom 23px right -6px;
@@ -433,8 +409,7 @@
 
     .contains_activity
     {
-        margin-top: 795px;
-        margin-left: 20px;
+        margin: 795px 0 0 20px;
         height: 1377px;
     }
     .picture_activity
@@ -572,8 +547,7 @@
     .footer_about
     {
         padding-top: 20px;
-        margin: 0;
-        margin-bottom: 10px;
+        margin: 0 0 10px 0;
     }
 
     .footer_about a
