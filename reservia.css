@@ -547,8 +547,7 @@ p label
 .picture_most_popular
 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 
@@ -558,43 +557,33 @@ p label
     height: 135px;
     object-fit: cover;
     border: 4px solid white;
-    border-radius: 20px;
-    position: relative;
+    border-radius: 20px 0 0 20px;
     margin-bottom: 40px;
 }
 
 .description_picture_most_popular1
 {
-    position: absolute;
-    top: 548px;
     background-color: white;
     width: 215px;
     height: 143px;
-    right: 90px;
     border-radius: 0 20px 20px 0;
     padding-left: 20px;
 }
 
 .description_picture_most_popular2
 {
-    position: absolute;
-    top: 735px;
     background-color: white;
     width: 215px;
     height: 143px;
-    right: 90px;
     border-radius: 0 20px 20px 0;
     padding-left: 20px;
 }
 
 .description_picture_most_popular3
 {
-    position: absolute;
-    top: 922px;
     background-color: white;
     width: 215px;
     height: 143px;
-    right: 90px;
     border-radius: 0 20px 20px 0;
     padding-left: 20px;
 }
