@@ -1,3 +1,32 @@
 @media only screen and (min-width: 768px)
 {
+    /*filters*/
+    .filters
+    {
+    width: auto;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    }
+
+    .contains_economic
+    {
+        margin: 0 0 30px 0;
+    }
+
+    .contains_family
+    {
+        margin: 0 50px 30px 0;
+    }
+
+    .contains_romantic
+    {
+        margin: 0 0 10px 155px;
+    }
+
+    .contains_pets_allowed
+    {
+        margin: 0 0 10px 0;
+    }
+
+    
 }
