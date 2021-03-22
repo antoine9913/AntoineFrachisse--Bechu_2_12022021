@@ -210,13 +210,13 @@ p label
     transition: 0.8s;
 }
 
-.contains_economique
+.contains_economic
 {
     display: flex;
     align-items: center;
 }
 
-.logo_billet
+.logo_ticket
 {
     position: absolute;
     color: #0065FC;
@@ -226,7 +226,7 @@ p label
     background: #DEEBFF;
 }
 
-.economique
+.economic
 {
     border: 3px solid #F2F2F2;
     border-radius: 40px;
@@ -236,7 +236,7 @@ p label
     font-size: 0.8em;
 }
 
-.contains_familial
+.contains_family
 {
     display: flex;
     align-items: center;
@@ -251,7 +251,7 @@ p label
     padding: 15px 20px;
     background: #DEEBFF;
 }
-.familial
+.family
 {
     border: 3px solid #F2F2F2;
     border-radius: 40px;
@@ -261,13 +261,13 @@ p label
     font-size: 0.8em;
 }
 
-.contains_romantique
+.contains_romantic
 {
     display: flex;
     align-items: center;
 }
 
-.logo_coeur
+.logo_heart
 {
     position: absolute;
     color: #0065FC;
@@ -276,7 +276,7 @@ p label
     padding: 15px 17px;
     background: #DEEBFF;
 }
-.romantique
+.romantic
 {
     border: 3px solid #F2F2F2;
     border-radius: 40px;
@@ -286,13 +286,13 @@ p label
     font-size: 0.8em;
 }
 
-.contains_animaux_autorisé
+.contains_pets_allowed
 {
     display: flex;
     align-items: center;
 }
 
-.logo_chien
+.logo_dog
 {
     position: absolute;
     color: #0065FC;
@@ -301,7 +301,7 @@ p label
     padding: 15px;
     background: #DEEBFF;
 }
-.animaux_autorisé
+.pets_allowed
 {
     border: 3px solid #F2F2F2;
     border-radius: 40px;
@@ -311,7 +311,7 @@ p label
     font-size: 0.8em;
 }
 
-.economique:hover,.familial:hover,.romantique:hover,.animaux_autorisé:hover
+.economic:hover,.family:hover,.romantic:hover,.pets_allowed:hover
 {
     background: #F2F2F2;
 }
@@ -527,19 +527,19 @@ p label
     border-radius: 20px;
 }
 
-.header
+.header_most_popular
 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.header h1
+.header_most_popular h1
 {
     margin-right: 120px;
 }
 
-.logo_header
+.logo_header_most_popular
 {
     font-size: 1.3em;
 }
