@@ -1,6 +1,5 @@
-@media all and (max-width: 375px)
+@media (min-width: 320px) and (max-width: 767px)
 {
-
 
     #block_pages
     {
@@ -24,7 +23,7 @@
     nav
     {
         border-bottom: 3px solid #F2F2F2;
-        width: 375px;
+        width: auto;
         margin:0;
     }
 

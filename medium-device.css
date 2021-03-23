@@ -1,12 +1,12 @@
-@media only screen and (min-width: 768px)
+@media (min-width: 768px) and (max-width: 979px)
 {
 
     #block_pages
     {
-        width: 100%;
+        width:100%;
         margin: auto;
     }
-    
+
     /*filters*/
     .filters
     {
