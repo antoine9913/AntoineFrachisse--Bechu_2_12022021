@@ -1,6 +1,13 @@
 @media all and (max-width: 375px)
 {
 
+
+    #block_pages
+    {
+        width: 100%;
+        margin: auto;
+    }
+
     /*header*/
 
     header

@@ -1,5 +1,12 @@
 @media only screen and (min-width: 768px)
 {
+
+    #block_pages
+    {
+        width: 100%;
+        margin: auto;
+    }
+    
     /*filters*/
     .filters
     {
