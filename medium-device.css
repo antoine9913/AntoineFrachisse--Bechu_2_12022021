@@ -1,283 +1,232 @@
-@media (min-width: 761px) and (max-width: 979px)
-{
+@media (min-width: 761px) and (max-width: 979px) {
+  #block_pages {
+    width: 100%;
+    margin: auto;
+  }
 
-    #block_pages
-    {
-        width:100%;
-        margin: auto;
-    }
-
-    /*filters*/
-    .filters
-    {
+  /*filters*/
+  .filters {
     width: auto;
     flex-wrap: wrap;
     margin-right: 50px;
-    }
+  }
 
-    .contains_economic
-    {
-        margin: 0 0 30px 0;
-    }
+  .contains_economic {
+    margin: 0 0 30px 0;
+  }
 
-    .contains_family
-    {
-        margin: 0 50px 30px 0;
-    }
+  .contains_family {
+    margin: 0 50px 30px 0;
+  }
 
-    .contains_romantic
-    {
-        margin: 0 0 10px 155px;
-    }
+  .contains_romantic {
+    margin: 0 0 10px 155px;
+  }
 
-    .contains_pets_allowed
-    {
-        margin: 0 0 10px 0;
-    }
+  .contains_pets_allowed {
+    margin: 0 0 10px 0;
+  }
 
-    /*informations*/
+  /*informations*/
 
-    .informations
-    {
-        margin-top: 0;
-    }
+  .informations {
+    margin-top: 0;
+  }
 
-    /*most popular and hosting*/
+  /*most popular and hosting*/
 
-    .section
-    {
-        flex-direction: column-reverse;
-    }
+  .section {
+    flex-direction: column-reverse;
+  }
 
-    .most_popular
-    {
-        width: auto;
-        margin: 0 0 50px 0;
-    }
+  .most_popular {
+    width: auto;
+    margin: 0 0 50px 0;
+  }
 
-    .header_most_popular
-    {
-        margin-left: 120px;
-    }
+  .header_most_popular {
+    margin-left: 120px;
+  }
 
-    .picture_most_popular
-    {
-        margin-left: 120px;
-    }
+  .picture_most_popular {
+    margin-left: 120px;
+  }
 
-    .contains_hosting
-    {
-        width: auto;
-        height: auto;
-        padding-bottom: 20px;
-        margin: 0 0 50px 0;
-    }
+  .contains_hosting {
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 0 0 50px 0;
+  }
 
-    .description_picture1
-    {
-        position: absolute;
-        top: 779px;
-        left: 0px;
-        width: 226px;
-        height: 86px;
-        background-size: cover;
-        background-color: white;
-        border-radius: 0 0 15px 15px;
-        padding-left: 15px;
-    }
+  .description_picture1 {
+    position: absolute;
+    top: 779px;
+    left: 0px;
+    width: 226px;
+    height: 86px;
+    background-size: cover;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding-left: 15px;
+  }
 
+  .description_picture2 {
+    position: absolute;
+    top: 779px;
+    left: 0px;
+    width: 226px;
+    height: 86px;
+    background-size: cover;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding-left: 15px;
+  }
 
-    .description_picture2
-    {
-        position: absolute;
-        top: 779px;
-        left: 0px;
-        width: 226px;
-        height: 86px;
-        background-size: cover;
-        background-color: white;
-        border-radius: 0 0 15px 15px;
-        padding-left: 15px;
-    }
+  .description_picture3 {
+    position: absolute;
+    top: 1028px;
+    left: 4px;
+    width: 228px;
+    height: 86px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    margin-left: -4px;
+    padding-left: 15px;
+  }
 
-    .description_picture3
-    {
-        position: absolute;
-        top: 1028px;
-        left: 4px;
-        width: 228px;
-        height: 86px;
-        background-color: white;
-        border-radius: 0 0 15px 15px;
-        margin-left: -4px;
-        padding-left: 15px;
-    }
+  .description_picture4 {
+    position: absolute;
+    bottom: 247px;
+    left: 4px;
+    width: 228px;
+    height: 86px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    margin-left: -4px;
+    padding-left: 15px;
+    border: none;
+  }
 
-    .description_picture4
-    {
-        position: absolute;
-        bottom: 247px;
-        left: 4px;
-        width: 228px;
-        height: 86px;
-        background-color: white;
-        border-radius: 0 0 15px 15px;
-        margin-left: -4px;
-        padding-left: 15px;
-        border: none;
-    }
+  .contain_description_picture_top {
+    border: none;
+  }
 
+  .contain_description_picture_bottom {
+    position: absolute;
+    top: 1935px;
+    background-color: white;
+    border-radius: 20px;
+    width: 226px;
+    height: 90px;
+    border-radius: 0 0 15px 15px;
+    margin-left: -4px;
+    padding-left: 15px;
+    border: none;
+  }
 
-    .contain_description_picture_top
-    {
-        border: none;
-    }
+  /*Activity*/
 
-    .contain_description_picture_bottom
-    {
-        position: absolute;
-        top: 1935px;
-        background-color: white;
-        border-radius: 20px;
-        width: 226px;
-        height: 90px;
-        border-radius: 0 0 15px 15px;
-        margin-left: -4px;
-        padding-left: 15px;
-        border: none;
-    }
+  .picture_activity {
+    flex-direction: column;
+  }
 
-    /*Activity*/
+  .picture1 img {
+    width: 675px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .picture1 h2 {
+    width: 656px;
+    top: 2637px;
+  }
 
-    .picture_activity
-    {
-        flex-direction: column;
-    }
+  .picture2 img {
+    width: 675px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .picture2 h2 {
+    width: 656px;
+    top: 3130px;
+  }
 
-    .picture1 img
-    {
-        width: 675px;
-        height: 450px;
-        margin-bottom: 40px;
-    }
-    .picture1 h2
-    {
-        width: 656px;
-        top: 2637px;
-    }
+  .picture3 img {
+    width: 675px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .picture3 h2 {
+    width: 656px;
+    top: 3665px;
+  }
 
-    .picture2 img
-    {
-        width: 675px;
-        height: 450px;
-        margin-bottom: 534px;
-    }
-    .picture2 h2
-    {
-        width: 656px;
-        top: 3130px;
-    }
+  .picture4 img {
+    width: 675px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .picture4 h2 {
+    width: 656px;
+    top: 4160px;
+  }
 
-    .picture3 img
-    {
-        position: absolute;
-        width: 675px;
-        height: 450px;
-        top: 1682px;
-        left: -348px;
-        margin-top: 80px;
-    }
-    .picture3 h2
-    {
-        width: 656px;
-        top: 2140px;
-        left: -348px;
-    }
+  .picture5 img {
+    width: 675px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .picture5 h2 {
+    width: 656px;
+    top: 4655px;
+  }
 
-    .picture4 img
-    {
-        width: 675px;
-        height: 450px;
-        margin-bottom: 40px;
-    }
-    .picture4 h2
-    {
-        width: 656px;
-        top: 4120px;
-    }
+  .picture6 img {
+    width: 675px;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .picture6 h2 {
+    width: 656px;
+    top: 5190px;
+  }
 
-    .picture5 img
-    {
-        width: 675px;
-        height: 450px;
-        margin-bottom: 554px;
-    }
-    .picture5 h2
-    {
-        width: 656px;
-        top: 4615px;
-    }
+  /*footer*/
 
-    .picture6 img
-    {
-        position: absolute;
-        width: 675px;
-        height: 450px;
-        top: 3092px;
-        left: -1045px;
-        margin-top: 200px;
-    }
-    .picture6 h2
-    {
-        width: 656px;
-        top: 3670px;
-        left: -1045px;
-    }
+  footer {
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    padding: 0 50px 20px 50px;
+    justify-content: space-between;
+  }
 
-    /*footer*/
+  .footer_about {
+    padding-top: 20px;
+    margin: 0;
+  }
 
-    footer
-    {
-        display: flex;
-        margin: 0;
-        width: auto;
-        height: auto;
-        flex-direction: row;
-        padding: 0 50px 20px 50px;
-        justify-content: space-between;
-    }
+  .footer_about a {
+    margin-bottom: 10px;
+  }
 
-    .footer_about
-    {
-        padding-top: 20px;
-        margin: 0;
-    }
+  .footer_hosting {
+    padding-top: 20px;
+    margin: 0 0 30px 0;
+  }
 
-    .footer_about a
-    {
-        margin-bottom: 10px;
-    }
+  .footer_hosting a {
+    margin-bottom: 10px;
+  }
 
-    .footer_hosting
-    {
-        padding-top: 20px;
-        margin: 0 0 30px 0;
-    }
+  .footer_assistance {
+    padding-top: 20px;
+    margin: 0 0 30px 0;
+  }
 
-    .footer_hosting a
-    {
-        margin-bottom: 10px;
-    }
-
-
-    .footer_assistance
-    {
-        padding-top: 20px;
-        margin: 0 0 30px 0;
-    }
-
-    .footer_assistance a
-    {
-        margin-bottom: 10px;
-    }
+  .footer_assistance a {
+    margin-bottom: 10px;
+  }
 }
