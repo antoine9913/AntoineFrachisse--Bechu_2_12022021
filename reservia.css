@@ -85,7 +85,7 @@ a:hover {
 .section_title h1 {
   margin: 35px 0 10px 50px;
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .section_sub-title span {
@@ -118,6 +118,7 @@ input {
   text-align: start;
   padding-left: 20px;
   font-weight: bold;
+  font-family: "raleway";
 }
 
 input[type="text"]:focus {
@@ -178,6 +179,7 @@ p label {
   cursor: pointer;
   padding: 22px 22px;
   transition: 0.8s;
+  font-family: "raleway";
 }
 
 .contains_economic {
@@ -449,7 +451,7 @@ p label {
 }
 
 .contains_hosting span {
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 /*Most popular*/
