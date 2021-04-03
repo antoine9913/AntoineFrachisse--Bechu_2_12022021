@@ -23,20 +23,36 @@
 
   nav a {
     margin: 0;
-    padding: 0 65px 25px 40px;
+  }
+
+  .contains_nav {
+    padding-bottom: 25px;
+    width: auto;
   }
 
   .nav_hosting {
-    width: 167px;
+    width: auto;
     border: none;
     border-bottom: 3px solid #0065fc;
-    padding: 0px 35px 25px 40px;
+    padding: 0 36px 25px 40px;
   }
 
-  a:hover {
+  .nav_activity {
+    width: auto;
+    height: auto;
+    padding: 0 60px 25px 60px;
+  }
+
+  .nav_hosting:hover {
     border-bottom: 3px solid #0065fc;
     border-top: none;
-    padding: 0 65px 25px 40px;
+    padding: 0 36px 25px 40px;
+  }
+
+  .nav_activity:hover {
+    border-bottom: 3px solid #0065fc;
+    border-top: none;
+    padding: 0 60px 25px 60px;
   }
 
   #inscription {
@@ -126,7 +142,7 @@
   .contains_family {
     position: absolute;
     right: 24px;
-    top: 410px;
+    top: 405px;
   }
 
   .family {
@@ -223,8 +239,10 @@
 
   .contains_hosting {
     background: none;
-    margin: 20px 40px 0 20px;
-    padding: 0;
+    width: auto;
+    height: auto;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 18px;
   }
 
   .picture_hosting {
@@ -287,7 +305,7 @@
 
   .description_picture1 {
     position: absolute;
-    top: 830px;
+    top: 825px;
     left: -1px;
     width: 321px;
     background-size: cover;
@@ -298,7 +316,7 @@
 
   .description_picture2 {
     position: absolute;
-    top: 1050px;
+    top: 1045px;
     left: -1px;
     width: 321px;
     background-size: cover;
@@ -309,7 +327,7 @@
 
   .description_picture3 {
     position: absolute;
-    top: 1270px;
+    top: 1265px;
     left: -1px;
     width: 321px;
     background-size: cover;
@@ -320,7 +338,7 @@
 
   .description_picture4 {
     position: absolute;
-    top: 1245px;
+    top: 1240px;
     left: 3px;
     width: 322px;
     background-size: cover;
@@ -331,7 +349,7 @@
 
   .description_picture5 {
     position: absolute;
-    top: 1465px;
+    top: 1460px;
     left: 3px;
     width: 322px;
     background-size: cover;
@@ -342,7 +360,7 @@
 
   .description_picture6 {
     position: absolute;
-    top: 1685px;
+    top: 1680px;
     left: 3px;
     width: 322px;
     background-size: cover;
@@ -362,8 +380,9 @@
   /*Activity*/
 
   .contains_activity {
-    margin: 795px 0 0 20px;
-    height: 1377px;
+    margin: 0 0 0 20px;
+    width: auto;
+    height: auto;
   }
   .picture_activity {
     flex-direction: column;
@@ -380,7 +399,7 @@
   }
   .picture1 h2 {
     width: 315px;
-    top: 2943px;
+    top: 2948px;
   }
 
   .picture2 {
@@ -395,7 +414,7 @@
 
   .picture2 h2 {
     width: 315px;
-    top: 3157px;
+    top: 3163px;
   }
 
   .picture3 {
@@ -410,7 +429,7 @@
 
   .picture3 h2 {
     width: 315px;
-    top: 3370px;
+    top: 3378px;
   }
 
   .picture4 {
@@ -425,7 +444,7 @@
 
   .picture4 h2 {
     width: 315px;
-    top: 3584px;
+    top: 3590px;
   }
 
   .picture5 {
@@ -440,7 +459,7 @@
 
   .picture5 h2 {
     width: 315px;
-    top: 3798px;
+    top: 3804px;
   }
 
   .picture6 {
@@ -455,7 +474,7 @@
 
   .picture6 h2 {
     width: 315px;
-    top: 4012px;
+    top: 4020px;
   }
 
   /*footer*/
