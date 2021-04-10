@@ -1,9 +1,4 @@
 @media (min-width: 761px) and (max-width: 979px) {
-  #block_pages {
-    width: 100%;
-    margin: auto;
-  }
-
   /*filters*/
   .filters {
     width: auto;
