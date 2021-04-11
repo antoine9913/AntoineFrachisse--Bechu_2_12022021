@@ -517,19 +517,18 @@ p label {
 
 .picture_activity {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .picture1 {
-  margin-right: 45px;
+  background-image: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-size: 220%;
+  background-position: bottom 45px left 480px;
   border-radius: 20px;
-}
-
-.picture1 img {
-  width: 302px;
+  margin-right: 40px;
   height: 445px;
   object-fit: cover;
-  border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
 
@@ -538,24 +537,21 @@ p label {
   flex-direction: column;
 }
 .picture2 {
-  margin-right: 45px;
-  border-radius: 20px;
-}
-
-.picture2 img {
-  width: 302px;
+  background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  background-size: 105%;
+  background-position: bottom 360px right 0;
   height: 238px;
+  margin-right: 40px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
 
 .picture3 {
-  margin: 40px 45px 0 0;
-  border-radius: 20px;
-}
-.picture3 img {
-  width: 302px;
+  background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+  background-size: 105%;
+  background-position: top -30px right 0;
+  margin: 40px 40px 0 0;
   height: 164px;
   object-fit: cover;
   border-radius: 20px;
@@ -563,13 +559,11 @@ p label {
 }
 
 .picture4 {
-  margin-right: 45px;
-  border-radius: 20px;
-}
-
-.picture4 img {
-  width: 302px;
+  background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+  background-size: 240%;
+  background-position: bottom 0 right 520px;
   height: 445px;
+  margin-right: 40px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
@@ -581,11 +575,9 @@ p label {
 }
 
 .picture5 {
-  border-radius: 20px;
-}
-
-.picture5 img {
-  width: 302px;
+  background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+  background-size: 100%;
+  background-position: bottom 0 right 0;
   height: 195px;
   object-fit: cover;
   border-radius: 20px;
@@ -593,12 +585,10 @@ p label {
 }
 
 .picture6 {
-  margin: 40px 45px 0 0;
-  border-radius: 20px;
-}
-
-.picture6 img {
-  width: 302px;
+  background-image: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  background-size: 105%;
+  background-position: bottom 0 right 0;
+  margin-top: 40px;
   height: 208px;
   object-fit: cover;
   border-radius: 20px;
@@ -608,57 +598,57 @@ p label {
 .picture_activity h2 {
   font-size: 1em;
   padding-left: 20px;
+  color: black;
+}
+
+.picture_activity a {
+  text-decoration: none;
+  color: black;
 }
 
 .picture1 h2 {
-  position: absolute;
-  top: 1580px;
   background-color: white;
+  margin-top: 388px;
   width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
 
 .picture2 h2 {
-  position: absolute;
-  top: 1373px;
   background-color: white;
+  margin-top: 180px;
   width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
 
 .picture3 h2 {
-  position: absolute;
-  top: 1578px;
   background-color: white;
+  margin-top: 108px;
   width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
 
 .picture4 h2 {
-  position: absolute;
-  top: 1580px;
   background-color: white;
+  margin-top: 388px;
   width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
 
 .picture5 h2 {
-  position: absolute;
-  top: 1330px;
   background-color: white;
+  margin-top: 138px;
   width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
 
 .picture6 h2 {
-  position: absolute;
-  top: 1580px;
   background-color: white;
+  margin-top: 150px;
   width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
@@ -669,7 +659,7 @@ p label {
 footer {
   display: flex;
   flex-direction: row;
-  margin-top: 62px;
+  margin-top: 40px;
   height: 218px;
   background-color: #f2f2f2;
 }
