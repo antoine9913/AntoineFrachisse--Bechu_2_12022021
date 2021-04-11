@@ -443,7 +443,10 @@ p label {
 }
 
 .contains_hosting span {
-  font-size: 1.1em;
+  font-size: 0.9em;
+}
+
+.show_more {
   margin-left: 20px;
 }
 
@@ -540,12 +543,12 @@ p label {
 }
 
 .contains_picture_most_popular h2 {
-  font-size: 1.03em;
+  font-size: 0.9em;
   padding-top: 10px;
 }
 
 .contains_picture_most_popular span {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .stars_most_popular {
