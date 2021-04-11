@@ -7,7 +7,7 @@
   }
 
   .contains_economic {
-    margin: 0 0 30px 0;
+    margin: 0 60px 30px 0;
   }
 
   .contains_family {
@@ -15,7 +15,7 @@
   }
 
   .contains_romantic {
-    margin: 0 0 10px 155px;
+    margin: 0 60px 10px 155px;
   }
 
   .contains_pets_allowed {
@@ -34,13 +34,15 @@
     flex-direction: column-reverse;
   }
 
+  .section_hosting {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px 0 0 0;
+  }
+
   .most_popular {
     width: auto;
     margin: 0 0 50px 0;
-  }
-
-  .header_most_popular {
-    margin-left: 120px;
   }
 
   .picture_most_popular {
@@ -48,16 +50,26 @@
   }
 
   .contains_hosting {
-    width: auto;
+    width: -webkit-fill-available;
     height: auto;
-    padding-bottom: 20px;
-    margin: 0 0 50px 0;
+    padding-bottom: 40px;
+    margin: 0 0 20px 0;
+    border-radius: 0;
+  }
+
+  .picture_hosting_top {
+    flex-direction: column;
+  }
+
+  .picture_hosting_bottom {
+    flex-direction: column;
+  }
+
+  .hosting_1 {
+    width: auto;
   }
 
   .description_picture1 {
-    position: absolute;
-    top: 779px;
-    left: 0px;
     width: 226px;
     height: 86px;
     background-size: cover;
@@ -67,9 +79,6 @@
   }
 
   .description_picture2 {
-    position: absolute;
-    top: 779px;
-    left: 0px;
     width: 226px;
     height: 86px;
     background-size: cover;
@@ -79,9 +88,6 @@
   }
 
   .description_picture3 {
-    position: absolute;
-    top: 1028px;
-    left: 4px;
     width: 228px;
     height: 86px;
     background-color: white;
@@ -91,9 +97,6 @@
   }
 
   .description_picture4 {
-    position: absolute;
-    bottom: 247px;
-    left: 4px;
     width: 228px;
     height: 86px;
     background-color: white;
@@ -108,11 +111,8 @@
   }
 
   .contain_description_picture_bottom {
-    position: absolute;
-    top: 1935px;
     background-color: white;
     border-radius: 20px;
-    width: 226px;
     height: 90px;
     border-radius: 0 0 15px 15px;
     margin-left: -4px;
@@ -126,64 +126,78 @@
     flex-direction: column;
   }
 
-  .picture1 img {
-    width: 675px;
-    height: 450px;
-    margin-bottom: 40px;
+  .picture1 {
+    width: auto;
+    height: 200px;
+    margin: 0 0 40px 0;
   }
+
   .picture1 h2 {
-    width: 656px;
-    top: 2637px;
+    width: auto;
+    margin-top: 142px;
   }
 
-  .picture2 img {
-    width: 675px;
-    height: 450px;
-    margin-bottom: 40px;
+  .picture_activity2-3 {
+    width: auto;
+    height: 200px;
+    margin: 0 0 280px 0;
   }
+
+  .picture2 {
+    height: 200px;
+  }
+
   .picture2 h2 {
-    width: 656px;
-    top: 3130px;
+    width: auto;
+    margin-top: 142px;
   }
 
-  .picture3 img {
-    width: 675px;
-    height: 450px;
-    margin-bottom: 40px;
+  .picture3 {
+    height: 200px;
   }
+
   .picture3 h2 {
-    width: 656px;
-    top: 3665px;
+    width: auto;
+    margin-top: 142px;
   }
 
-  .picture4 img {
-    width: 675px;
-    height: 450px;
-    margin-bottom: 40px;
+  .picture4 {
+    width: auto;
+    height: 200px;
+    margin: 0 0 40px 0;
   }
+
   .picture4 h2 {
-    width: 656px;
-    top: 4160px;
+    width: auto;
+    margin-top: 142px;
   }
 
-  .picture5 img {
-    width: 675px;
-    height: 450px;
-    margin-bottom: 40px;
+  .picture_activity5-6 {
+    width: auto;
+    height: 200px;
+    margin: 0 0 280px 0;
   }
+
+  .picture5 {
+    width: auto;
+    height: 200px;
+    margin: 0 0 40px 0;
+  }
+
   .picture5 h2 {
-    width: 656px;
-    top: 4655px;
+    width: auto;
+    margin-top: 142px;
   }
 
-  .picture6 img {
-    width: 675px;
-    height: 450px;
-    margin-bottom: 40px;
+  .picture6 {
+    width: auto;
+    height: 200px;
+    margin: 0 0 40px 0;
   }
+
   .picture6 h2 {
-    width: 656px;
-    top: 5190px;
+    width: auto;
+    margin-top: 142px;
   }
 
   /*footer*/

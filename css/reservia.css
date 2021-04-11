@@ -159,17 +159,16 @@ p label {
 .filters {
   display: flex;
   flex-direction: row;
-  width: 67%;
-  margin: 30px 0 0 60px;
+  margin: 30px 50px 0 60px;
   font-weight: bold;
   font-size: 1.3em;
-  justify-content: space-between;
   text-align: center;
 }
 
 .filters h1 {
   font-size: 0.8em;
   font-weight: bold;
+  margin-right: 15px;
 }
 
 .btn {
@@ -185,6 +184,7 @@ p label {
 .contains_economic {
   display: flex;
   align-items: center;
+  margin: 0 15px 0 15px;
 }
 
 .logo_ticket {
@@ -208,6 +208,7 @@ p label {
 .contains_family {
   display: flex;
   align-items: center;
+  margin: 0 15px 0 15px;
 }
 
 .logo_child {
@@ -230,6 +231,7 @@ p label {
 .contains_romantic {
   display: flex;
   align-items: center;
+  margin: 0 15px 0 15px;
 }
 
 .logo_heart {
@@ -252,6 +254,7 @@ p label {
 .contains_pets_allowed {
   display: flex;
   align-items: center;
+  margin: 0 0 0 15px;
 }
 
 .logo_dog {
@@ -300,7 +303,7 @@ p label {
 
 /*hosting and most popular*/
 
-.section {
+.section_hosting {
   display: flex;
   margin: 30px 50px 0 50px;
 }
@@ -313,16 +316,31 @@ p label {
 /*hosting*/
 
 .contains_hosting {
-  flex: 2;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
   background-color: #f2f2f2;
-  padding: 25px 40px 0px 40px;
+  padding: 25px 30px 0px 30px;
   border-radius: 20px;
 }
 
-.picture_hosting {
+#hosting {
+  margin: 0 0 30px 20px;
+}
+
+.picture_hosting_top {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+}
+
+.picture_hosting_bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.hosting_1 {
+  width: 240px;
+  margin: 0 20px 40px 22px;
 }
 
 .hosting_1 a {
@@ -333,7 +351,6 @@ p label {
 .picture_hosting_1 {
   border: 4px solid white;
   border-radius: 20px;
-  margin: 0 0 20px 0;
   background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: 105%;
   background-position: bottom 60px right 0;
@@ -342,7 +359,6 @@ p label {
 .picture_hosting_2 {
   border: 4px solid white;
   border-radius: 20px;
-  margin-bottom: 20px;
   background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: 105%;
   background-position: bottom 60px right 0;
@@ -351,7 +367,6 @@ p label {
 .picture_hosting_3 {
   border: 4px solid white;
   border-radius: 20px;
-  margin-bottom: 20px;
   background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: 105%;
   background-position: bottom 60px right 0;
@@ -360,7 +375,6 @@ p label {
 .picture_hosting_4 {
   border: 4px solid white;
   border-radius: 20px;
-  margin-bottom: 20px;
   background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: 105%;
   background-position: bottom 25px right 0;
@@ -369,7 +383,6 @@ p label {
 .picture_hosting_5 {
   border: 4px solid white;
   border-radius: 20px;
-  margin-bottom: 20px;
   background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   background-size: 105%;
   background-position: bottom 65px right 0;
@@ -378,7 +391,6 @@ p label {
 .picture_hosting_6 {
   border: 4px solid white;
   border-radius: 20px;
-  margin-bottom: 20px;
   background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: 105%;
   background-position: bottom 330px right 0;
@@ -388,7 +400,6 @@ p label {
   background-color: white;
   border: 4px solid white;
   border-radius: 20px;
-  width: 220px;
   border-radius: 0 0 15px 15px;
   margin: 124px -2px -2px -4px;
   padding-left: 15px;
@@ -398,13 +409,13 @@ p label {
   background-color: white;
   border: 4px solid white;
   border-radius: 20px;
-  width: 220px;
   border-radius: 0 0 15px 15px;
   margin: 124px -2px -2px -4px;
   padding-left: 15px;
 }
 
-.picture_hosting h2 {
+.picture_hosting_top h2,
+.picture_hosting_bottom h2 {
   font-size: 1.03em;
   margin-bottom: 4px;
 }
@@ -432,78 +443,108 @@ p label {
 }
 
 .contains_hosting span {
-  margin-top: 20px;
-  font-size: 0.9em;
+  font-size: 1.1em;
+  margin-left: 20px;
 }
 
 /*Most popular*/
 
 .most_popular {
-  flex: 1;
+  width: 29%;
   background-color: #f2f2f2;
-  margin-left: 3%;
-  padding: 25px 30px 0px 40px;
+  margin: 0 0 0 50px;
+  padding: 25px 0 0px 25px;
   border-radius: 20px;
 }
 
 .header_most_popular {
   display: flex;
-  flex-direction: row;
   align-items: center;
-}
-
-.header_most_popular h1 {
-  margin-right: 120px;
+  justify-content: space-between;
+  margin-right: 30px;
 }
 
 .logo_header_most_popular {
   font-size: 1.3em;
 }
 
-.picture_most_popular {
+.contains_picture_most_popular {
   display: flex;
   flex-direction: row;
+  padding-right: 30px;
 }
 
-.picture_most_popular img {
-  width: 117px;
+.contains_picture_most_popular a {
+  text-decoration: none;
+  color: black;
+}
+
+.picture_most_popular1 {
+  background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  background-size: 60%;
+  background-position: bottom 0 right 180px;
+  width: -webkit-fill-available;
   height: 135px;
   object-fit: cover;
   border: 4px solid white;
-  border-radius: 20px 0 0 20px;
+  border-radius: 22px;
+  margin-bottom: 40px;
+}
+
+.picture_most_popular2 {
+  background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  background-size: 60%;
+  background-position: bottom 150px right 170px;
+  width: -webkit-fill-available;
+  height: 135px;
+  object-fit: cover;
+  border: 4px solid white;
+  border-radius: 22px;
+  margin-bottom: 40px;
+}
+
+.picture_most_popular3 {
+  background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  background-size: 40%;
+  background-position: bottom -30px right 220px;
+  width: -webkit-fill-available;
+  height: 135px;
+  object-fit: cover;
+  border: 4px solid white;
+  border-radius: 22px;
   margin-bottom: 40px;
 }
 
 .description_picture_most_popular1 {
   background-color: white;
-  width: 215px;
   height: 143px;
   border-radius: 0 20px 20px 0;
   padding-left: 20px;
+  margin: -17px 0 0 125px;
 }
 
 .description_picture_most_popular2 {
   background-color: white;
-  width: 215px;
   height: 143px;
   border-radius: 0 20px 20px 0;
   padding-left: 20px;
+  margin: -17px 0 0 125px;
 }
 
 .description_picture_most_popular3 {
   background-color: white;
-  width: 215px;
   height: 143px;
   border-radius: 0 20px 20px 0;
   padding-left: 20px;
+  margin: -17px 0 0 125px;
 }
 
-.picture_most_popular h2 {
+.contains_picture_most_popular h2 {
   font-size: 1.03em;
-  margin-bottom: 4px;
+  padding-top: 10px;
 }
 
-.picture_most_popular span {
+.contains_picture_most_popular span {
   font-size: 0.9em;
 }
 
@@ -515,9 +556,12 @@ p label {
 
 /*activity*/
 
+.section_activity {
+  margin: 30px 50px 0 50px;
+}
+
 .picture_activity {
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -526,7 +570,8 @@ p label {
   background-size: 220%;
   background-position: bottom 45px left 480px;
   border-radius: 20px;
-  margin-right: 40px;
+  margin-right: 52px;
+  width: 302px;
   height: 445px;
   object-fit: cover;
   box-shadow: 0px 0px 10px #d9d9d9;
@@ -535,13 +580,14 @@ p label {
 .picture_activity2-3 {
   display: flex;
   flex-direction: column;
+  width: 302px;
+  margin-right: 52px;
 }
 .picture2 {
   background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
   background-size: 105%;
   background-position: bottom 360px right 0;
   height: 238px;
-  margin-right: 40px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
@@ -551,7 +597,7 @@ p label {
   background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
   background-size: 105%;
   background-position: top -30px right 0;
-  margin: 40px 40px 0 0;
+  margin: 40px 0 0 0;
   height: 164px;
   object-fit: cover;
   border-radius: 20px;
@@ -562,8 +608,9 @@ p label {
   background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
   background-size: 240%;
   background-position: bottom 0 right 520px;
+  width: 302px;
   height: 445px;
-  margin-right: 40px;
+  margin-right: 52px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
@@ -572,12 +619,13 @@ p label {
 .picture_activity5-6 {
   display: flex;
   flex-direction: column;
+  width: 302px;
 }
 
 .picture5 {
   background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
   background-size: 100%;
-  background-position: bottom 0 right 0;
+  background-position: bottom 5px right 0;
   height: 195px;
   object-fit: cover;
   border-radius: 20px;
@@ -609,7 +657,6 @@ p label {
 .picture1 h2 {
   background-color: white;
   margin-top: 388px;
-  width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -617,7 +664,6 @@ p label {
 .picture2 h2 {
   background-color: white;
   margin-top: 180px;
-  width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -625,7 +671,6 @@ p label {
 .picture3 h2 {
   background-color: white;
   margin-top: 108px;
-  width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -633,7 +678,6 @@ p label {
 .picture4 h2 {
   background-color: white;
   margin-top: 388px;
-  width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -641,7 +685,6 @@ p label {
 .picture5 h2 {
   background-color: white;
   margin-top: 138px;
-  width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -649,7 +692,6 @@ p label {
 .picture6 h2 {
   background-color: white;
   margin-top: 150px;
-  width: 282px;
   padding: 20px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px;
 }
