@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 760px) {
+@media (min-width: 319px) and (max-width: 760px) {
   /*header*/
 
   header {
@@ -35,7 +35,7 @@
   .nav_activity {
     width: auto;
     height: auto;
-    padding: 0 60px 25px 60px;
+    padding: 0 20px 25px 45px;
   }
 
   .nav_hosting:hover {
@@ -75,13 +75,18 @@
 
   /*location search*/
 
+  .location {
+    margin: 20px 20px 0 20px;
+  }
+
   .logo_location {
-    margin-left: 20px;
+    margin: 0;
     height: 18px;
   }
 
   .input {
-    width: 260px;
+    width: -webkit-fill-available;
+    max-width: 270px;
     height: 50px;
     border: 1px solid #f2f2f2;
   }
@@ -91,6 +96,7 @@
     width: 200px;
     left: 80px;
     background: none;
+    font-size: 1em;
   }
 
   .search_button {
@@ -99,14 +105,12 @@
 
   .logo_search {
     display: flex;
-    position: absolute;
-    margin-left: 300px;
     padding: 18px 18px 16px 18px;
     align-items: center;
     border: 1px solid #0065fc;
     color: white;
     background-color: #0065fc;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
   }
 
   /*Filters*/
@@ -129,9 +133,11 @@
   }
 
   .economic {
-    width: 180px;
+    width: -webkit-fill-available;
+    max-width: 155px;
     padding: 0 0 0 52px;
     font-weight: 600;
+    font-size: 0.68em;
   }
 
   .contains_family {
@@ -141,9 +147,10 @@
   }
 
   .family {
-    width: 143px;
-    padding: 0 0 0 52px;
+    width: -webkit-fill-available;
+    max-width: 126px;
     font-weight: 600;
+    font-size: 0.68em;
   }
 
   .contains_romantic {
@@ -151,9 +158,11 @@
   }
 
   .romantic {
-    width: 173px;
+    width: -webkit-fill-available;
+    max-width: 150px;
     padding: 0 0 0 52px;
     font-weight: 600;
+    font-size: 0.68em;
   }
 
   .contains_pets_allowed {
@@ -161,9 +170,11 @@
   }
 
   .pets_allowed {
-    width: 230px;
+    width: -webkit-fill-available;
+    max-width: 200px;
     padding: 0 0 0 52px;
     font-weight: 600;
+    font-size: 0.68em;
   }
 
   .economique:hover,
