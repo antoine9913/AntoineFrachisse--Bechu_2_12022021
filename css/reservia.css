@@ -44,7 +44,6 @@ header {
 }
 
 .logo_reservia img {
-  width: 95px;
   height: 45px;
   margin: 50px 0 0 50px;
 }
@@ -52,7 +51,6 @@ header {
 nav {
   margin: 0 30px 30px 0;
   display: flex;
-  flex-direction: row;
   align-items: flex-end;
   font-size: 1em;
 }
@@ -85,7 +83,6 @@ a:hover {
 .section_title h1 {
   margin: 35px 0 10px 50px;
   font-size: 1.4em;
-  font-weight: bold;
 }
 
 .section_sub-title span {
@@ -115,7 +112,6 @@ input {
   width: 245px;
   border: #f2f2f2;
   font-size: 1.2em;
-  text-align: start;
   padding-left: 20px;
   font-weight: bold;
   font-family: "raleway";
@@ -123,13 +119,6 @@ input {
 
 input[type="text"]:focus {
   outline: none;
-}
-
-p label {
-  position: absolute;
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-left: 20px;
 }
 
 .search_button {
@@ -158,16 +147,12 @@ p label {
 
 .filters {
   display: flex;
-  flex-direction: row;
   margin: 30px 50px 0 60px;
-  font-weight: bold;
   font-size: 1.3em;
-  text-align: center;
 }
 
 .filters h1 {
   font-size: 0.8em;
-  font-weight: bold;
   margin-right: 15px;
 }
 
@@ -182,8 +167,6 @@ p label {
 }
 
 .contains_economic {
-  display: flex;
-  align-items: center;
   margin: 0 15px 0 15px;
 }
 
@@ -206,8 +189,6 @@ p label {
 }
 
 .contains_family {
-  display: flex;
-  align-items: center;
   margin: 0 15px 0 15px;
 }
 
@@ -229,8 +210,6 @@ p label {
 }
 
 .contains_romantic {
-  display: flex;
-  align-items: center;
   margin: 0 15px 0 15px;
 }
 
@@ -252,8 +231,6 @@ p label {
 }
 
 .contains_pets_allowed {
-  display: flex;
-  align-items: center;
   margin: 0 0 0 15px;
 }
 
@@ -317,8 +294,6 @@ p label {
 
 .contains_hosting {
   width: 65%;
-  display: flex;
-  flex-direction: column;
   background-color: #f2f2f2;
   padding: 25px 30px 0px 30px;
   border-radius: 20px;
@@ -330,12 +305,10 @@ p label {
 
 .picture_hosting_top {
   display: flex;
-  flex-direction: row;
 }
 
 .picture_hosting_bottom {
   display: flex;
-  flex-direction: row;
 }
 
 .hosting_1 {
@@ -353,7 +326,9 @@ p label {
   border-radius: 20px;
   background: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
   background-size: 105%;
-  background-position: bottom 60px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64%;
 }
 
 .picture_hosting_2 {
@@ -361,7 +336,9 @@ p label {
   border-radius: 20px;
   background: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
   background-size: 105%;
-  background-position: bottom 60px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64%;
 }
 
 .picture_hosting_3 {
@@ -369,7 +346,9 @@ p label {
   border-radius: 20px;
   background: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
   background-size: 105%;
-  background-position: bottom 60px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64%;
 }
 
 .picture_hosting_4 {
@@ -377,7 +356,9 @@ p label {
   border-radius: 20px;
   background: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
   background-size: 105%;
-  background-position: bottom 25px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64%;
 }
 
 .picture_hosting_5 {
@@ -385,7 +366,9 @@ p label {
   border-radius: 20px;
   background: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
   background-size: 105%;
-  background-position: bottom 65px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64%;
 }
 
 .picture_hosting_6 {
@@ -393,13 +376,14 @@ p label {
   border-radius: 20px;
   background: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
   background-size: 105%;
-  background-position: bottom 330px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64%;
 }
 
 .contain_description_picture_top {
   background-color: white;
   border: 4px solid white;
-  border-radius: 20px;
   border-radius: 0 0 15px 15px;
   margin: 124px -2px -2px -4px;
   padding-left: 15px;
@@ -408,7 +392,6 @@ p label {
 .contain_description_picture_bottom {
   background-color: white;
   border: 4px solid white;
-  border-radius: 20px;
   border-radius: 0 0 15px 15px;
   margin: 124px -2px -2px -4px;
   padding-left: 15px;
@@ -427,7 +410,6 @@ p label {
 .stars {
   margin-top: 5px;
   display: flex;
-  flex-direction: row;
   padding-bottom: 5px;
 }
 
@@ -472,8 +454,6 @@ p label {
 }
 
 .contains_picture_most_popular {
-  display: flex;
-  flex-direction: row;
   padding-right: 30px;
 }
 
@@ -484,11 +464,10 @@ p label {
 
 .picture_most_popular1 {
   background: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-  background-size: 60%;
-  background-position: bottom 0 right 180px;
-  width: -webkit-fill-available;
-  height: 135px;
-  object-fit: cover;
+  background-size: 66%;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 66%;
   border: 4px solid white;
   border-radius: 22px;
   margin-bottom: 40px;
@@ -497,10 +476,9 @@ p label {
 .picture_most_popular2 {
   background: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
   background-size: 60%;
-  background-position: bottom 150px right 170px;
-  width: -webkit-fill-available;
-  height: 135px;
-  object-fit: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 64%;
   border: 4px solid white;
   border-radius: 22px;
   margin-bottom: 40px;
@@ -509,10 +487,9 @@ p label {
 .picture_most_popular3 {
   background: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
   background-size: 40%;
-  background-position: bottom -30px right 220px;
-  width: -webkit-fill-available;
-  height: 135px;
-  object-fit: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 64%;
   border: 4px solid white;
   border-radius: 22px;
   margin-bottom: 40px;
@@ -571,12 +548,12 @@ p label {
 .picture1 {
   background: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
   background-size: 220%;
-  background-position: bottom 45px left 480px;
+  background-position: top;
+  background-repeat: no-repeat;
   border-radius: 20px;
   margin-right: 52px;
   width: 302px;
   height: 445px;
-  object-fit: cover;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
 
@@ -589,9 +566,9 @@ p label {
 .picture2 {
   background: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
   background-size: 105%;
-  background-position: bottom 360px right 0;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 238px;
-  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
@@ -599,10 +576,10 @@ p label {
 .picture3 {
   background: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
   background-size: 105%;
-  background-position: top -30px right 0;
+  background-position: top;
+  background-repeat: no-repeat;
   margin: 40px 0 0 0;
   height: 164px;
-  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
@@ -610,11 +587,11 @@ p label {
 .picture4 {
   background: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
   background-size: 240%;
-  background-position: bottom 0 right 520px;
+  background-position: top;
+  background-repeat: no-repeat;
   width: 302px;
   height: 445px;
   margin-right: 52px;
-  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
@@ -628,9 +605,9 @@ p label {
 .picture5 {
   background: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
   background-size: 100%;
-  background-position: bottom 5px right 0;
+  background-position: top;
+  background-repeat: no-repeat;
   height: 195px;
-  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
@@ -638,10 +615,10 @@ p label {
 .picture6 {
   background: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
   background-size: 105%;
-  background-position: bottom 0 right 0;
+  background-position: top;
+  background-repeat: no-repeat;
   margin-top: 40px;
   height: 208px;
-  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #d9d9d9;
 }
@@ -703,7 +680,6 @@ p label {
 
 footer {
   display: flex;
-  flex-direction: row;
   margin-top: 40px;
   height: 218px;
   background-color: #f2f2f2;

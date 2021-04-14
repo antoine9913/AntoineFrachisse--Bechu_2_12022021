@@ -30,28 +30,27 @@
 
   /*most popular and hosting*/
 
-  .section {
-    flex-direction: column-reverse;
-  }
-
-  .section_hosting {
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 50px 0 0 0;
-  }
-
   .most_popular {
     width: auto;
     margin: 0 0 50px 0;
+    border-radius: 0;
   }
 
   .picture_most_popular {
     margin-left: 120px;
   }
 
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .section_hosting {
+    flex-direction: column-reverse;
+    margin: 50px 0 0 0;
+  }
+
   .contains_hosting {
     width: -webkit-fill-available;
-    height: auto;
     padding-bottom: 40px;
     margin: 0 0 20px 0;
     border-radius: 0;
@@ -203,11 +202,8 @@
   /*footer*/
 
   footer {
-    display: flex;
     margin: 0;
-    width: auto;
     height: auto;
-    flex-direction: row;
     padding: 0 50px 20px 50px;
     justify-content: space-between;
   }
