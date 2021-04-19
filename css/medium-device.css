@@ -1,4 +1,4 @@
-@media (min-width: 761px) and (max-width: 1024px) {
+@media (min-width: 761px) and (max-width: 1020px) {
   /*filters*/
   .filters {
     width: auto;
@@ -28,16 +28,36 @@
     margin-top: 0;
   }
 
-  /*most popular and hosting*/
+  /*most popular*/
 
   .most_popular {
-    width: auto;
-    margin: 0 0 50px 0;
-    border-radius: 0;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 40px;
   }
 
-  .picture_most_popular {
-    margin-left: 120px;
+  .picture_most_popular1 {
+    background-size: 41%;
+  }
+
+  .picture_most_popular2 {
+    background-size: 37%;
+  }
+
+  .picture_most_popular3 {
+    background-size: 31%;
+  }
+
+  .description_picture_most_popular1 {
+    margin: -2px -2px -2px 150px;
+  }
+
+  .description_picture_most_popular2 {
+    margin: -2px -2px -2px 150px;
+  }
+
+  .description_picture_most_popular3 {
+    margin: -2px -2px -2px 150px;
   }
 
   .section {
@@ -60,8 +80,32 @@
     flex-direction: column;
   }
 
+  .picture_hosting_1 {
+    background-size: 101%;
+  }
+
+  .picture_hosting_2 {
+    background-size: 101%;
+  }
+
+  .picture_hosting_3 {
+    background-size: 101%;
+  }
+
   .picture_hosting_bottom {
     flex-direction: column;
+  }
+
+  .picture_hosting_4 {
+    background-size: 101%;
+  }
+
+  .picture_hosting_5 {
+    background-size: 101%;
+  }
+
+  .picture_hosting_6 {
+    background-size: 101%;
   }
 
   .hosting_1 {
@@ -129,11 +173,12 @@
     width: auto;
     height: 200px;
     margin: 0 0 40px 0;
+    background-size: 100%;
   }
 
   .picture1 h2 {
     width: auto;
-    margin-top: 142px;
+    margin-top: 135px;
   }
 
   .picture_activity2-3 {
@@ -144,31 +189,35 @@
 
   .picture2 {
     height: 200px;
+    background-size: 100%;
   }
 
   .picture2 h2 {
     width: auto;
-    margin-top: 142px;
+    margin-top: 135px;
   }
 
   .picture3 {
     height: 200px;
+    background-size: 100%;
+    background-position: left;
   }
 
   .picture3 h2 {
     width: auto;
-    margin-top: 142px;
+    margin-top: 135px;
   }
 
   .picture4 {
     width: auto;
     height: 200px;
     margin: 0 0 40px 0;
+    background-size: 100%;
   }
 
   .picture4 h2 {
     width: auto;
-    margin-top: 142px;
+    margin-top: 135px;
   }
 
   .picture_activity5-6 {
@@ -181,22 +230,26 @@
     width: auto;
     height: 200px;
     margin: 0 0 40px 0;
+    background-size: 100%;
+    background-position: center;
   }
 
   .picture5 h2 {
     width: auto;
-    margin-top: 142px;
+    margin-top: 135px;
   }
 
   .picture6 {
     width: auto;
     height: 200px;
     margin: 0 0 40px 0;
+    background-size: 100%;
+    background-position: center;
   }
 
   .picture6 h2 {
     width: auto;
-    margin-top: 142px;
+    margin-top: 135px;
   }
 
   /*footer*/

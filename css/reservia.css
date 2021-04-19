@@ -283,6 +283,7 @@ input[type="text"]:focus {
 .section_hosting {
   display: flex;
   margin: 30px 50px 0 50px;
+  justify-content: space-between;
 }
 
 .section a:hover {
@@ -293,27 +294,31 @@ input[type="text"]:focus {
 /*hosting*/
 
 .contains_hosting {
-  width: 65%;
+  width: 69%;
+  min-width: 55%;
   background-color: #f2f2f2;
-  padding: 25px 30px 0px 30px;
+  padding: 28px 12px 12px 12px;
   border-radius: 20px;
 }
 
 #hosting {
-  margin: 0 0 30px 20px;
+  margin: 0 0 30px 12px;
 }
 
 .picture_hosting_top {
   display: flex;
+  justify-content: space-between;
 }
 
 .picture_hosting_bottom {
   display: flex;
+  justify-content: space-between;
 }
 
 .hosting_1 {
   width: 240px;
-  margin: 0 20px 40px 22px;
+  height: 215px;
+  margin: 0 13px 35px 13px;
 }
 
 .hosting_1 a {
@@ -323,88 +328,90 @@ input[type="text"]:focus {
 
 .picture_hosting_1 {
   border: 4px solid white;
-  border-radius: 20px;
-  background: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-  background-size: 105%;
+  border-radius: 20px 20px 0 0;
+  background: url("../images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  background-size: 140%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 64%;
+  height: 58%;
 }
 
 .picture_hosting_2 {
   border: 4px solid white;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  background-size: 105%;
+  background-size: 140%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 64%;
+  height: 58%;
 }
 
 .picture_hosting_3 {
   border: 4px solid white;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  background-size: 105%;
+  background-size: 140%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 64%;
+  height: 58%;
 }
 
 .picture_hosting_4 {
   border: 4px solid white;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  background-size: 105%;
+  background-size: 130%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 64%;
+  height: 58%;
 }
 
 .picture_hosting_5 {
   border: 4px solid white;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  background-size: 105%;
+  background-size: 171%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 64%;
+  height: 58%;
 }
 
 .picture_hosting_6 {
   border: 4px solid white;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  background-size: 105%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 64%;
+  height: 58%;
 }
 
 .contain_description_picture_top {
   background-color: white;
   border: 4px solid white;
   border-radius: 0 0 15px 15px;
-  margin: 124px -2px -2px -4px;
+  margin: 124px -4px 0 -4px;
   padding-left: 15px;
+  min-height: 90px;
 }
 
 .contain_description_picture_bottom {
   background-color: white;
   border: 4px solid white;
   border-radius: 0 0 15px 15px;
-  margin: 124px -2px -2px -4px;
+  margin: 124px -4px 0 -4px;
   padding-left: 15px;
+  min-height: 90px;
 }
 
 .picture_hosting_top h2,
 .picture_hosting_bottom h2 {
-  font-size: 1.03em;
+  font-size: 0.9em;
   margin-bottom: 4px;
 }
 
 .picture_hosting span {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .stars {
@@ -425,7 +432,7 @@ input[type="text"]:focus {
 }
 
 .contains_hosting span {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .show_more {
@@ -435,10 +442,10 @@ input[type="text"]:focus {
 /*Most popular*/
 
 .most_popular {
-  width: 29%;
+  width: 36%;
   background-color: #f2f2f2;
   margin: 0 0 0 50px;
-  padding: 25px 0 0px 25px;
+  padding: 40px 25px 0px 25px;
   border-radius: 20px;
 }
 
@@ -446,82 +453,78 @@ input[type="text"]:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 30px;
+  margin: 0 0 30px;
+}
+
+.header_most_popular h1 {
+  margin: 0;
 }
 
 .logo_header_most_popular {
   font-size: 1.3em;
 }
 
-.contains_picture_most_popular {
-  padding-right: 30px;
-}
-
-.contains_picture_most_popular a {
+.most_popular a {
   text-decoration: none;
   color: black;
 }
 
+.contains_picture_most_popular {
+  margin: 0 0 32px 0;
+}
+
 .picture_most_popular1 {
   background: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-  background-size: 66%;
+  background-size: 75%;
   background-position: left;
   background-repeat: no-repeat;
-  height: 66%;
   border: 4px solid white;
   border-radius: 22px;
-  margin-bottom: 40px;
 }
 
 .picture_most_popular2 {
   background: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-  background-size: 60%;
+  background-size: 67%;
   background-position: left;
   background-repeat: no-repeat;
-  height: 64%;
   border: 4px solid white;
   border-radius: 22px;
-  margin-bottom: 40px;
 }
 
 .picture_most_popular3 {
   background: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-  background-size: 40%;
+  background-size: 47%;
   background-position: left;
   background-repeat: no-repeat;
-  height: 64%;
   border: 4px solid white;
   border-radius: 22px;
-  margin-bottom: 40px;
 }
 
 .description_picture_most_popular1 {
   background-color: white;
-  height: 143px;
   border-radius: 0 20px 20px 0;
   padding-left: 20px;
-  margin: -17px 0 0 125px;
+  margin: -2px -2px -2px 125px;
 }
 
 .description_picture_most_popular2 {
   background-color: white;
-  height: 143px;
   border-radius: 0 20px 20px 0;
   padding-left: 20px;
-  margin: -17px 0 0 125px;
+  margin: -2px -2px -2px 125px;
 }
 
 .description_picture_most_popular3 {
   background-color: white;
-  height: 143px;
   border-radius: 0 20px 20px 0;
   padding-left: 20px;
-  margin: -17px 0 0 125px;
+  margin: -2px -2px -2px 125px;
 }
 
 .contains_picture_most_popular h2 {
   font-size: 0.9em;
-  padding-top: 10px;
+  margin: 0;
+  padding: 10px 0 20px 0;
 }
 
 .contains_picture_most_popular span {
@@ -529,7 +532,7 @@ input[type="text"]:focus {
 }
 
 .stars_most_popular {
-  margin-top: 35px;
+  padding: 30px 0 10px 0;
   display: flex;
   flex-direction: row;
 }
@@ -547,8 +550,8 @@ input[type="text"]:focus {
 
 .picture1 {
   background: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-  background-size: 220%;
-  background-position: top;
+  background-size: 350%;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
   margin-right: 52px;
@@ -586,8 +589,8 @@ input[type="text"]:focus {
 
 .picture4 {
   background: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-  background-size: 240%;
-  background-position: top;
+  background-size: 350%;
+  background-position: center;
   background-repeat: no-repeat;
   width: 302px;
   height: 445px;
@@ -636,44 +639,50 @@ input[type="text"]:focus {
 
 .picture1 h2 {
   background-color: white;
-  margin-top: 388px;
-  padding: 20px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+  margin-top: 380px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .picture2 h2 {
   background-color: white;
-  margin-top: 180px;
-  padding: 20px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+  margin-top: 174px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .picture3 h2 {
   background-color: white;
-  margin-top: 108px;
-  padding: 20px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+  margin-top: 100px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .picture4 h2 {
   background-color: white;
-  margin-top: 388px;
-  padding: 20px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+  margin-top: 381px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .picture5 h2 {
   background-color: white;
-  margin-top: 138px;
-  padding: 20px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+  margin-top: 130px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .picture6 h2 {
   background-color: white;
-  margin-top: 150px;
-  padding: 20px 0px 20px 20px;
-  border-radius: 0px 0px 20px 20px;
+  margin-top: 144px;
+  height: 50px;
+  padding: 15px 0 0 20px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 /*footer*/
@@ -681,8 +690,10 @@ input[type="text"]:focus {
 footer {
   display: flex;
   margin-top: 40px;
-  height: 218px;
+  padding: 50px 250px 50px 50px;
+  height: 160px;
   background-color: #f2f2f2;
+  justify-content: space-between;
 }
 
 footer span {
@@ -697,21 +708,20 @@ footer h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px 250px 54px 50px;
 }
 
 .footer_hosting {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px 0 85px 0;
+  margin: 0 0 35px 0;
 }
 
 .footer_assistance {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px 0 85px 320px;
+  margin: 0 0 35px 0;
 }
 
 footer a {
