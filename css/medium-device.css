@@ -1,51 +1,111 @@
-@media (min-width: 761px) and (max-width: 1020px) {
+@media (min-width: 480px) and (max-width: 1020px) {
+  /*header*/
+
+  header {
+    margin: 30px;
+  }
+
+  .logo_reservia img {
+    margin: 0;
+  }
+
+  nav {
+    margin: 15px 0 20px 0;
+  }
+
+  .nav_hosting {
+    padding: 43px 0 0 0;
+  }
+
+  .nav_activity:hover {
+    padding: 43px 0 0 20px;
+  }
+
+  #inscription:hover {
+    padding: 43px 0 0 20px;
+  }
+
+  nav a {
+    padding: 0 0 0 20px;
+    margin: 0;
+  }
+
+  a:hover {
+    padding: 43px 0 0 0;
+  }
+
+  main {
+    width: auto;
+    margin: 30px 30px 0 30px;
+  }
+
+  .section_title h1 {
+    margin: 30px 0 10px 0;
+  }
+
+  .section_sub-title span {
+    margin: 0;
+  }
+
+  .location {
+    margin: 20px 0 0 0;
+  }
+
+  .logo_location {
+    margin: 0;
+  }
+
+  input {
+    width: 100%;
+  }
   /*filters*/
   .filters {
     width: auto;
-    flex-wrap: wrap;
-    margin-right: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0;
   }
 
   .contains_economic {
-    margin: 0 60px 30px 0;
+    margin: 15px 20px;
   }
 
   .contains_family {
-    margin: 0 50px 30px 0;
+    margin: 15px 20px;
   }
 
   .contains_romantic {
-    margin: 0 60px 10px 155px;
+    margin: 15px 20px;
   }
 
   .contains_pets_allowed {
-    margin: 0 0 10px 0;
+    margin: 15px 20px;
   }
 
   /*informations*/
 
   .informations {
-    margin-top: 0;
+    margin: 20px 0 0 0;
   }
 
   /*most popular*/
 
   .most_popular {
-    width: 65%;
-    margin: auto;
+    width: auto;
+    margin: 0;
     margin-bottom: 40px;
   }
 
   .picture_most_popular1 {
-    background-size: 41%;
+    background-size: 55%;
   }
 
   .picture_most_popular2 {
-    background-size: 37%;
+    background-size: 48%;
   }
 
   .picture_most_popular3 {
-    background-size: 31%;
+    background-size: 44%;
   }
 
   .description_picture_most_popular1 {
@@ -70,10 +130,9 @@
   }
 
   .contains_hosting {
-    width: -webkit-fill-available;
+    width: auto;
     padding-bottom: 40px;
     margin: 0 0 20px 0;
-    border-radius: 0;
   }
 
   .picture_hosting_top {
@@ -151,26 +210,31 @@
 
   .contain_description_picture_top {
     border: none;
+    padding: 1px 0 0 15px;
   }
 
   .contain_description_picture_bottom {
-    background-color: white;
-    border-radius: 20px;
-    height: 90px;
     border-radius: 0 0 15px 15px;
-    margin-left: -4px;
-    padding-left: 15px;
+    padding: 1px 0 0 15px;
     border: none;
   }
 
   /*Activity*/
 
+  .section_activity {
+    margin: 0;
+  }
+
   .picture_activity {
     flex-direction: column;
   }
 
-  .picture1 {
+  .picture_activity1 {
     width: auto;
+    margin: 0;
+  }
+
+  .picture1 {
     height: 200px;
     margin: 0 0 40px 0;
     background-size: 100%;
@@ -190,6 +254,7 @@
   .picture2 {
     height: 200px;
     background-size: 100%;
+    margin-bottom: 40px;
   }
 
   .picture2 h2 {
@@ -208,8 +273,12 @@
     margin-top: 135px;
   }
 
-  .picture4 {
+  .picture_activity4 {
     width: auto;
+    margin: 0;
+  }
+
+  .picture4 {
     height: 200px;
     margin: 0 0 40px 0;
     background-size: 100%;
@@ -227,7 +296,6 @@
   }
 
   .picture5 {
-    width: auto;
     height: 200px;
     margin: 0 0 40px 0;
     background-size: 100%;
@@ -240,7 +308,6 @@
   }
 
   .picture6 {
-    width: auto;
     height: 200px;
     margin: 0 0 40px 0;
     background-size: 100%;
@@ -257,8 +324,16 @@
   footer {
     margin: 0;
     height: auto;
-    padding: 0 50px 20px 50px;
+    padding: 0 30px 20px 30px;
     justify-content: space-between;
+  }
+
+  footer h3 {
+    font-size: 0.9em;
+  }
+
+  footer span {
+    font-size: 0.7em;
   }
 
   .footer_about {
