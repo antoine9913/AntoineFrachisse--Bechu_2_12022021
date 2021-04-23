@@ -259,6 +259,7 @@
     margin: 0 0 12px 0;
     box-shadow: 0px 0px 10px #d9d9d9;
     background-size: 100%;
+    background-position: bottom 50px left 0;
     height: auto;
     border-radius: 20px;
   }
@@ -267,6 +268,7 @@
     margin: 0 0 12px 0;
     box-shadow: 0px 0px 10px #d9d9d9;
     background-size: 100%;
+    background-position: bottom 50px left 0;
     height: auto;
     border-radius: 20px;
   }
@@ -275,6 +277,7 @@
     margin: 0 0 12px 0;
     box-shadow: 0px 0px 10px #d9d9d9;
     background-size: 100%;
+    background-position: bottom 50px left 0;
     height: auto;
     border-radius: 20px;
   }
@@ -283,6 +286,7 @@
     margin: 0 0 12px 0;
     box-shadow: 0px 0px 10px #d9d9d9;
     background-size: 100%;
+    background-position: bottom;
     height: auto;
     border-radius: 20px;
   }
@@ -300,6 +304,7 @@
     margin: 0 0 30px 0;
     box-shadow: 0px 0px 10px #d9d9d9;
     background-size: 100%;
+    background-position: bottom -45px left 0;
     height: auto;
     border-radius: 20px;
   }
@@ -356,10 +361,13 @@
     flex-direction: column;
   }
 
+  .picture_activity1 {
+    width: auto;
+    margin: 0;
+  }
   .picture1 {
     margin: 0 0 20px 0;
     height: 190px;
-    width: auto;
     background-size: 102%;
   }
 
@@ -390,10 +398,14 @@
     margin-top: 125px;
   }
 
+  .picture_activity4 {
+    width: auto;
+    margin: 0;
+  }
+
   .picture4 {
     margin: 0 0 20px 0;
     height: 190px;
-    width: auto;
     background-size: 102%;
   }
 
