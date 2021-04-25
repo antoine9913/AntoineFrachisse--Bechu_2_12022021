@@ -61,25 +61,25 @@
   /*filters*/
   .filters {
     width: auto;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     margin: 30px 0 0 0;
   }
 
   .contains_economic {
-    margin: 15px 20px;
+    margin: 15px 10px;
   }
 
   .contains_family {
-    margin: 15px 20px;
+    margin: 15px 10px;
   }
 
   .contains_romantic {
-    margin: 15px 20px;
+    margin: 15px 10px;
   }
 
   .contains_pets_allowed {
-    margin: 15px 20px;
+    margin: 15px 10px;
   }
 
   /*informations*/
@@ -133,6 +133,11 @@
     width: auto;
     padding-bottom: 40px;
     margin: 0 0 20px 0;
+  }
+
+  .picture_hosting {
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .picture_hosting_top {
