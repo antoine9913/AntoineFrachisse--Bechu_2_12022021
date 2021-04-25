@@ -135,11 +135,6 @@
     margin: 0 0 20px 0;
   }
 
-  .picture_hosting {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
   .picture_hosting_top {
     flex-direction: column;
   }
